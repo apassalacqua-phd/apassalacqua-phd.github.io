@@ -1,0 +1,155 @@
+.titleAndIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.titleAndIconContainer > h3 {
+  font-size: 30px;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-width: 1px;
+    border-color: transparent transparent transparent transparent;
+  }
+  5% {
+    border-width: 1px;
+    border-color: var(--color-primary) transparent transparent transparent;
+  }
+  10% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) transparent
+      transparent;
+  }
+  15% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      transparent;
+  }
+  20% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  25% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  30% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  35% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  40% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  45% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  50% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  55% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  60% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  65% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  70% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  75% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  80% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  85% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  90% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  95% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+  100% {
+    border-width: 1px;
+    border-color: var(--color-primary) var(--color-primary) var(--color-primary)
+      var(--color-primary);
+  }
+}
+
+.logoContainer {
+  border: 1px solid transparent;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 75px;
+  overflow: hidden;
+  animation: none;
+}
+
+.animateBorder {
+  animation: borderAnimation 8s linear forwards;
+}
+.logoImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* lg	1024px	 */
+@media (min-width: 1024px) {
+  .titleAndIconContainer {
+    gap: 30px;
+  }
+
+  .titleAndIconContainer > h3 {
+    font-size: 45px;
+    color: var(--color-primary);
+  }
+
+  .logoContainer {
+    width: 92px;
+    height: 85px;
+  }
+}

@@ -1,0 +1,229 @@
+.nameTitle {
+  font-size: 40px;
+  margin-top: 0;
+  color: var(--color-heading);
+  font-family: "EB Garamond", Garamond, serif;
+}
+
+.subTitle {
+  margin-top: -10px;
+  margin-bottom: 0px;
+
+  font-family: "EB Garamond", Garamond, serif;
+
+  font-weight: var(--fontWeight-normal);
+
+  font-size: 17px;
+  color: var(--color-heading);
+}
+
+.subSubTitle {
+  margin-top: 10px;
+  /* margin-bottom: 0px; */
+  margin-bottom: 0px;
+
+  font-family: "EB Garamond", Garamond, serif;
+
+  font-weight: var(--fontWeight-normal);
+
+  font-size: 15px;
+  color: var(--color-heading);
+}
+
+.introContainer {
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mainImage {
+  margin-right: var(--spacing-4);
+  margin-bottom: var(--spacing-0);
+  min-width: 50px;
+
+  max-width: 40rem;
+
+  border-radius: 3%;
+
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.introDetailsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -50px;
+}
+
+.getMyResume {
+  margin-top: -60px;
+  font-size: 20px;
+  color: var(--color-heading);
+}
+
+.aboutMeContainer > h5 {
+  font-family: "EB Garamond", Garamond, serif;
+  text-decoration: underline;
+  font-weight: var(--fontWeight-normal);
+
+  font-size: 15px;
+}
+
+.aboutMeContainer > p {
+  font-size: 12px;
+}
+
+.getMyResume > h5 {
+  font-size: 15px;
+  color: var(--color-primary);
+}
+
+@media (max-width: 530px) {
+  .introContainer {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .mainImage {
+    margin-right: var(--spacing-4);
+    margin-bottom: var(--spacing-0);
+    min-width: 50px;
+    border-radius: 3%;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .nameTitle {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .aboutMeContainer > h5 {
+    font-size: 15px;
+  }
+
+  .aboutMeContainer > p {
+    font-size: 12px;
+  }
+
+  .getMyResume > h5 {
+    font-size: 15px;
+  }
+}
+
+/* lg	1024px	 */
+@media (min-width: 1024px) {
+  .nameTitle {
+    font-size: 60px;
+    margin-top: 0;
+  }
+
+  .subTitle {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+
+  .subSubTitle {
+    margin-top: 5px;
+
+    font-size: 17px;
+  }
+
+  /* .mainImageContainer {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+  } */
+
+  .mainImage {
+    margin-right: var(--spacing-4);
+    margin-bottom: var(--spacing-0);
+    min-width: 50px;
+    border-radius: 3%;
+
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -50px;
+  }
+
+  .aboutMeContainer > h5 {
+    font-size: 19.2px;
+  }
+
+  .aboutMeContainer > p {
+    font-size: 14px;
+  }
+
+  .getMyResume > h5 {
+    font-size: 19.2px;
+  }
+}
+
+@media (max-width: 530px) {
+  .introContainer {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .mainImage {
+    margin-right: var(--spacing-4);
+    margin-bottom: var(--spacing-0);
+    min-width: 50px;
+    border-radius: 3%;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .nameTitle {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .aboutMeContainer > h5 {
+    font-size: 15px;
+  }
+
+  .aboutMeContainer > p {
+    font-size: 12px;
+  }
+
+  .getMyResume > h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1650px) {
+  .introContainer {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .mainImageContainer {
+    grid-column: span 5 / span 5;
+  }
+
+  .introDetailsContainer {
+    grid-column: span 7 / span 7;
+  }
+}

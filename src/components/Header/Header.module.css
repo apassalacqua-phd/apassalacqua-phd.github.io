@@ -1,0 +1,41 @@
+.globalHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: var(--spacing-4);
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  padding: 10px 0px;
+  z-index: 20;
+  gap: 3px 10px;
+}
+
+.globalHeader > span {
+  color: var(--color-heading);
+  font-weight: var(--fontWeight-normal);
+  font-family: var(--font-heading);
+  text-decoration: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+@media (min-width: 530px) {
+  .globalHeader > span {
+    font-size: var(--fontSize-1);
+  }
+}
+
+/* sm	640px	 */
+@media (min-width: 640px) {
+  .globalHeader {
+    margin-bottom: var(--spacing-8);
+  }
+
+  .globalHeader {
+    gap: 0px;
+    padding: 20px 20px;
+  }
+}

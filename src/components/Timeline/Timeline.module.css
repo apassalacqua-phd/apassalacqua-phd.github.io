@@ -1,0 +1,133 @@
+.container {
+  margin-top: 20px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.timeline .timelineItem:last-of-type {
+  margin-bottom: 20px;
+}
+
+.timelineItem {
+  display: flex;
+}
+
+.timelineDate {
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 10px;
+  min-width: 108px;
+  text-align: left;
+  padding-right: 20px;
+  border-right: 3px solid var(--color-primary);
+  font-family: var(--font-heading);
+  position: relative;
+}
+
+.timelineDate::after {
+  content: "";
+  position: absolute;
+  right: -11px;
+  top: 8px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.timelineContent {
+  flex-basis: 80%;
+  padding-left: 10px;
+}
+
+.timelineHeading {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-family: var(--font-heading);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.locationIcon {
+  display: none;
+}
+
+.entityNameAndLocationContainerDesktop {
+  display: none;
+}
+
+.entityNameAndLocationContainerMobile {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.timelineSubHeading {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-family: var(--font-heading);
+  font-size: 13px;
+}
+
+.timelineContent ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.timeline li {
+  font-size: 12px;
+}
+
+.timelineContent li:before {
+  content: "•";
+  margin-right: 5px;
+  color: #3498db;
+}
+
+@media (min-width: 530px) {
+  .timelineDate {
+    /* to keep the vertical line same through out all timeline array items */
+    min-width: 110px;
+  }
+
+  .locationIcon {
+    margin-bottom: 3px;
+    font-size: 20px;
+    display: block;
+  }
+}
+
+/* lg	1024px	 */
+@media (min-width: 1024px) {
+  .timeline li {
+    font-size: 14px;
+  }
+
+  .timelineHeading {
+    font-size: 19.2px;
+  }
+
+  .timelineSubHeading {
+    font-size: 15px;
+  }
+
+  .entityNameAndLocationContainerDesktop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .entityNameAndLocationContainerMobile {
+    display: none;
+  }
+}
