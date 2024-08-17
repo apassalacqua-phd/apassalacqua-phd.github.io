@@ -11,13 +11,13 @@ module.exports = {
   pathPrefix: "/",
   siteMetadata: {
     title: `Andrea Passalacqua`,
-    image: "https://xafak-01.github.io/images/profile-pic.png",
+    image: "https://apassalacqua-phd.github.io/images/profile-pic.png",
     author: {
       name: `Andrea Passalacqua`,
       summary: `Financial Economist at JPMorgan Chase & Co. | Research Interest in Financial Intermediation, Macroeconomics and Finance`,
     },
     description: `Andrea Passalacqua - Financial Economist at JPMorgan Chase & Co. | Research Interest in Financial Intermediation, Macroeconomics and Finance`,
-    siteUrl: `https://xafak-01.github.io`,
+    siteUrl: `https://apassalacqua-phd.github.io`,
     social: {
       twitter: `passalacquaand`,
     },
