@@ -81,17 +81,21 @@
 
 .timelineContent ul {
   list-style: none;
-  padding-left: 10px;
 }
 
 .timeline li {
   font-size: 12px;
+  list-style-position: inside;
+  padding-left: 17px;
+  text-indent: -8px;
 }
 
 .timelineContent li:before {
   content: "•";
   margin-right: 5px;
   color: #3498db;
+  display: inline-block;
+  width: 3px;
 }
 
 @media (min-width: 530px) {
