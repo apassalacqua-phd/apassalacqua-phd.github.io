@@ -32,15 +32,33 @@ const Intro = () => {
           <h5>Personal Biography & Research Background</h5>
 
           <p>
-            I am a financial economist with a research interest in financial
-            intermediation, macroeconomics, household finance, corporate
-            finance, venture capital, private equity, and entrepreneurship.
-          </p>
+            I am a financial economist with a strong background in applying economic 
+            and financial analysis to policy-related questions in the financial markets. 
+            I have held positions in both the government and private sectors and 
+            have extensive experience working with large financial datasets, sophisticated 
+            econometric models, and simulations. 
+          </p> 
+
 
           <p>
-            I worked as an Associate at Analysis Group, an Economic and
-            Financial Consulting Company. Previously, I was a financial
-            economist at the Board of Governors of Federal Reserve System.
+            I currently serve as Vice President and Data Research Lead at 
+            JPMorgan Chase & Co. I also hold a position as an Adjunct Instructor at John 
+            Hopkins University Carey Business School and I am a Visiting Research Fellow at 
+            at the AI, Analytics, and the Future of Work Initiative within Georgetown 
+            University McDonough School of Business. 
+          </p>  
+
+          <p>  
+            Previously I was an associate at Analysis Group, a leading financial consulting 
+            firm in the litigation industry. I began my career as a financial 
+            economist at the Board of Governors of the Federal Reserve System where I worked 
+            on issues related to the microeconomic and macroeconomic implications of banking 
+            regulations and supervision for the financial markets and the real economy.
+          </p>
+
+          <p> 
+            My research interests inlcude financial intermediation, macroeconomics, household 
+            finance, corporate finance, venture capital, private equity, and entrepreneurship.
           </p>
 
           <p>
@@ -49,6 +67,7 @@ const Intro = () => {
             Marco Di Maggio, and Adi Sunderam. Previously, I received a BSc and
             MSc in Economics from Bocconi University.
           </p>
+          
         </div>
 
         <a
