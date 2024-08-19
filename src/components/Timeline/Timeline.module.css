@@ -81,6 +81,7 @@
 
 .timelineContent ul {
   list-style: none;
+  margin-bottom: 0;
 }
 
 .timeline li {
@@ -129,6 +130,10 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+
+  .entityNameAndLocationContainerDesktop > h4:last-of-type {
+    font-weight: 400;
   }
 
   .entityNameAndLocationContainerMobile {

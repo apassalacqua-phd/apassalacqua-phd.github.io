@@ -51,10 +51,6 @@
   font-size: 12px;
 }
 
-.blogPostNav ul li:last-of-type {
-  margin-left: auto;
-}
-
 .coverImage {
   width: 100%;
   height: auto;

@@ -60,6 +60,11 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+
+  /* background colors for sub categories */
+  --color-publication: #004472;
+  --color-working-papers: #0072c0;
+  --color-work-in-progress: #008ae7;
 }
 
 /* HTML elements */

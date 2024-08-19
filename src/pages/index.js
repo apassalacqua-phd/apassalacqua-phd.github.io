@@ -93,7 +93,6 @@ export const query = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           title
           description
           category

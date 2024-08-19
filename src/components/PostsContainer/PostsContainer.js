@@ -5,6 +5,17 @@ import SectionTitleAndIcon from "../SectionTitleAndIcon/SectionTitleAndIcon"
 import * as styles from "./PostsContainer.module.css"
 
 const PostsContainer = ({ posts, iconSrc, title, id }) => {
+  const getBackgroundColor = subCategory => {
+    switch (subCategory) {
+      case "Publications":
+        return "var(--color-publication)"
+      case "Working Papers":
+        return "var(--color-working-papers)"
+      default:
+        return "var(--color-work-in-progress)"
+    }
+  }
+
   return (
     <div id={id} className={styles.postsContainer}>
       <SectionTitleAndIcon iconSrc={iconSrc} title={title} />
@@ -47,11 +58,17 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                         }}
                       >
                         {post.frontmatter.subCategory && (
-                          <small className={styles.subCategory}>
+                          <small
+                            style={{
+                              backgroundColor: getBackgroundColor(
+                                post?.frontmatter?.subCategory
+                              ),
+                            }}
+                            className={styles.subCategory}
+                          >
                             {post.frontmatter.subCategory}
                           </small>
                         )}
-                        <small>{post.frontmatter.date}</small>
                       </div>
                     </header>
                     <section>

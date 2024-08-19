@@ -7,7 +7,7 @@ import Layout from "../components/Layout/Layout"
 import Seo from "../components/Seo/Seo"
 
 const BlogPostTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
+  data: { site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
@@ -64,18 +64,9 @@ const BlogPostTemplate = ({
           }}
         >
           <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
+            <Link to={"/"} rel="prev">
+              ← Go Back
+            </Link>
           </li>
         </ul>
       </nav>
@@ -95,11 +86,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
+  query BlogPostBySlug($id: String!) {
     site {
       siteMetadata {
         title
@@ -118,22 +105,6 @@ export const pageQuery = graphql`
         cover {
           publicURL
         }
-      }
-    }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
-    }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
       }
     }
   }

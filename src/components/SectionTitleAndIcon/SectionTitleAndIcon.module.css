@@ -6,6 +6,7 @@
 
 .titleAndIconContainer > h3 {
   font-size: 30px;
+  font-family: "EB Garamond", Garamond, serif;
   color: var(--color-primary);
   margin: 0;
 }
