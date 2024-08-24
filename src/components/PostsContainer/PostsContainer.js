@@ -81,13 +81,23 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                     </section>
                   </div>
 
+                    {/* continue reading container */}
+                    <Link
+                    className={styles.continueReading}
+                    to={post.fields.slug}
+                    itemProp="url"
+                  >
+                    <span>READ SUMMARY</span>
+                    <PiBookOpenText className={styles.continueReadingIcon} />
+                  </Link>
+
                   {/* continue reading container */}
                   <Link
                     className={styles.continueReading}
                     to={post.fields.slug}
                     itemProp="url"
                   >
-                    <span>CONTINUE READING</span>
+                    <span>READ SUMMARY</span>
                     <PiBookOpenText className={styles.continueReadingIcon} />
                   </Link>
                 </div>

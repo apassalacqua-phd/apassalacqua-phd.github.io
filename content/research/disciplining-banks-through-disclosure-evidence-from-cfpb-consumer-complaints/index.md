@@ -3,8 +3,10 @@ title: Disciplining Banks through Disclosure - Evidence from CFPB Consumer Compl
 description: Disciplining Banks through Disclosure - Evidence from CFPB Consumer Complaints - with Anya Kleymenova, Jeffrey Jou, Laszlo Sandor, and Rajesh Vijayaraghavan
 date: "2015-05-06T23:46:37.121Z"
 category: "research"
-subCategory: "Publications"
+subCategory: "Work In Progress"
+order: 1
 cover: "./cover.png"
+button2Link: "/posts/research/disciplining-banks-through-disclosure-evidence-from-cfpb-consumer-complaints/suggested_citation_bibtex.pdf"
 ---
 
 \*Presented: AEA 2023\*, 7th JAAF-ATP India Symposium\*, Yale\*\*

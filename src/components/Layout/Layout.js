@@ -10,10 +10,11 @@ const Layout = ({ location, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <Header />
       <main>{children}</main>
-      {/* <footer
+      <footer
         style={{
-          backgroundColor: "#2e353f",
-          color: "#ffffff",
+          fontWeight: 700,
+          fontFamily: `"EB Garamond", Garamond, serif`,
+          fontSize: "22px",
           padding: "10px",
           margin: "0",
         }}
@@ -21,7 +22,7 @@ const Layout = ({ location, children }) => {
         Disclaimer: The opinions expressed on this website are solely those of
         Andrea Passalacqua and do not necessarily reflect the views or opinions
         of his employer.
-      </footer> */}
+      </footer>
     </div>
   )
 }
