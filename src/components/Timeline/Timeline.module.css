@@ -103,7 +103,8 @@
 }
 
 .timelineContent li:before {
-  content: "•";
+  /* for showing a bullet point */
+  /* content: "•"; */
   margin-right: 5px;
   color: #3498db;
   display: inline-block;
