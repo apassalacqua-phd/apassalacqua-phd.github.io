@@ -49,7 +49,7 @@
 .timelineHeading {
   font-family: "EB Garamond", Garamond, serif;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   margin-top: 0;
   font-size: 15px;
   display: flex;
@@ -81,15 +81,18 @@
 
 .timelinePosition {
   font-family: "EB Garamond", Garamond, serif;
-  /* font-weight: ; */
-  margin-bottom: 5px;
-  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: 4px;
   font-size: 13px;
 }
 
 .timelineContent ul {
   list-style: none;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .timeline li {
@@ -130,11 +133,12 @@
     font-size: 19.2px;
   }
 
-  .timelinePosition.timelineSubHeading {
+  .timelineSubHeading {
     font-size: 17px;
   }
-
-  
+  .timelinePosition {
+    font-size: 17px;
+  }
 
   .entityNameAndLocationContainerDesktop {
     display: flex;
@@ -149,6 +153,4 @@
   .entityNameAndLocationContainerMobile {
     display: none;
   }
-
-
 }
