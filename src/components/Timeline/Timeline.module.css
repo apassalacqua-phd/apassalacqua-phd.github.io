@@ -98,17 +98,17 @@
 .timeline li {
   font-size: 12px;
   list-style-position: inside;
-  padding-left: 17px;
+  padding-left: 10px;
   text-indent: -8px;
 }
 
 .timelineContent li:before {
   /* for showing a bullet point */
   /* content: "•"; */
-  margin-right: 5px;
+  /* margin-right: 5px;
   color: #3498db;
   display: inline-block;
-  width: 3px;
+  width: 3px; */
 }
 
 @media (min-width: 530px) {
