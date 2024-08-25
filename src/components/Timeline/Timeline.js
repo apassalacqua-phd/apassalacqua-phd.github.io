@@ -11,7 +11,7 @@ const Timeline = ({ title, iconSrc, data, id }) => {
       <SectionTitleAndIcon iconSrc={iconSrc} title={title} />
 
       <div className={styles.timeline}>
-        {data.map((item, index) => (
+        {data.length > 0 && data.map((item, index) => (
           <div key={index} className={styles.timelineItem}>
             <div className={styles.timelineDate}>
               {item.startYear}
@@ -36,11 +36,11 @@ const Timeline = ({ title, iconSrc, data, id }) => {
                 </h4>
               </div>
               {item.position && (
-                <h5 className={styles.timelineSubHeading}>({item.position})</h5>
+                <h5 className={styles.timelinePosition}>{item.position}</h5>
               )}
 
               <ul>
-                {item.data.map((point, i) => (
+                {item?.data?.length>0 &&  item.data.map((point, i) => (
                   <li
                     style={{
                       marginBottom: index + 1 === data.length ? 0 : "16px",

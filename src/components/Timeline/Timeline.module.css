@@ -79,6 +79,14 @@
   font-size: 13px;
 }
 
+.timelinePosition {
+  font-family: "EB Garamond", Garamond, serif;
+  /* font-weight: ; */
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
 .timelineContent ul {
   list-style: none;
   margin-bottom: 0;
@@ -122,9 +130,11 @@
     font-size: 19.2px;
   }
 
-  .timelineSubHeading {
+  .timelinePosition.timelineSubHeading {
     font-size: 17px;
   }
+
+  
 
   .entityNameAndLocationContainerDesktop {
     display: flex;
