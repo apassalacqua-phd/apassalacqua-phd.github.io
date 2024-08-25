@@ -6,6 +6,8 @@ import { MdOutlineLocationOn } from "react-icons/md"
 import SectionTitleAndIcon from "../SectionTitleAndIcon/SectionTitleAndIcon"
 
 const Timeline = ({ title, iconSrc, data, id }) => {
+  const gap_between_array_items = 45 //px;
+
   return (
     <div id={id} className={styles.container}>
       <SectionTitleAndIcon iconSrc={iconSrc} title={title} />
@@ -43,7 +45,10 @@ const Timeline = ({ title, iconSrc, data, id }) => {
                 {item.position && (
                   <h5
                     style={{
-                      marginBottom: index + 1 === data.length ? 0 : "16px",
+                      marginBottom:
+                        index + 1 === data.length
+                          ? 0
+                          : `${gap_between_array_items}px`,
                     }}
                     className={styles.timelinePosition}
                   >
@@ -62,7 +67,7 @@ const Timeline = ({ title, iconSrc, data, id }) => {
                               ? 0
                               : i + 1 < item.data.length
                               ? "0px"
-                              : "18px",
+                              : `${gap_between_array_items + 2}px`,
                         }}
                         key={i}
                       >
