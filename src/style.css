@@ -246,12 +246,10 @@ a:focus {
 /* Custom classes */
 
 .global-wrapper {
-  /* margin: var(--spacing-0) auto 0; */
-  margin: 0 auto 0;
+  margin: 0 auto;
 
   max-width: 90%;
-  /* padding: var(--spacing-10) var(--spacing-5) 0; */
-  padding: 0 var(--spacing-5) 0;
+  padding: 0 var(--spacing-5);
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -273,9 +271,8 @@ a:focus {
 
 @media (max-width: 530px) {
   .global-wrapper {
-    margin: 0 auto 0;
+    margin: 0 auto;
     max-width: 100%;
-    padding: 0 var(--spacing-5) 0;
   }
 }
 

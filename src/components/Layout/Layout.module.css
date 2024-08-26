@@ -1,0 +1,24 @@
+.footer {
+  font-weight: 500;
+  font-family: "EB Garamond", Garamond, serif;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 15px;
+  margin: 10px 0 0;
+
+  text-align: center;
+
+  background-color: #ebf7ff;
+  text-decoration: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* sm	640px	 */
+@media (min-width: 640px) {
+  .footer {
+    margin: 20px 0 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
