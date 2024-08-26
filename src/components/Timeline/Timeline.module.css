@@ -83,8 +83,8 @@
   font-family: "EB Garamond", Garamond, serif;
   font-weight: 400;
   margin-bottom: 16px;
-  margin-top: 4px;
-  font-size: 13px;
+  margin-top: 12px;
+  font-size: 14px;
 }
 
 .timelineContent ul {
@@ -96,10 +96,10 @@
 }
 
 .timeline li {
-  font-size: 12px;
+  font-size: 11px;
   list-style-position: inside;
-  padding-left: 10px;
-  text-indent: -8px;
+  /* padding-left: 10px; */
+  /* text-indent: -8px; */
 }
 
 .timelineContent li:before {
