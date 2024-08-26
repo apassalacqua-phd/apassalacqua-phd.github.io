@@ -21,7 +21,7 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
       <SectionTitleAndIcon iconSrc={iconSrc} title={title} />
 
       {/* list of posts */}
-      <ol style={{ listStyle: "none" }}>
+      <div className={styles.postsListContainer}>
         {posts.map(post => {
           const postTitle = post.frontmatter.title || post.fields.slug
           const coverUrl = post.frontmatter.cover?.publicURL
@@ -33,56 +33,47 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                {coverUrl && (
-                  <img
-                    src={coverUrl}
-                    alt={postTitle}
-                    className={styles.coverImage}
-                  />
-                )}
-
                 <div className={styles.contentContainer}>
-                  {/* title, date, desc container */}
-                  <div>
-                    <header>
-                      <h4>
-                        <Link to={post.fields.slug} itemProp="url">
-                          <span itemProp="headline">{postTitle}</span>
-                        </Link>
-                      </h4>
-                      <div
-                        style={{
-                          display: "flex",
-                          gap: "10px",
-                          alignItems: "center",
-                        }}
-                      >
-                        {post.frontmatter.subCategory && (
-                          <small
-                            style={{
-                              backgroundColor: getBackgroundColor(
-                                post?.frontmatter?.subCategory
-                              ),
-                            }}
-                            className={styles.subCategory}
-                          >
-                            {post.frontmatter.subCategory}
-                          </small>
-                        )}
-                      </div>
-                    </header>
-                    <section>
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: post.frontmatter.description || post.excerpt,
-                        }}
-                        itemProp="description"
-                      />
-                    </section>
-                  </div>
+                  {/* cover image */}
+                  {coverUrl && (
+                    <img
+                      src={coverUrl}
+                      alt={postTitle}
+                      className={styles.coverImage}
+                    />
+                  )}
 
-                    {/* continue reading container */}
-                    <Link
+                  {/* title */}
+                  <h4>
+                    <Link to={post.fields.slug} itemProp="url">
+                      <span itemProp="headline">{postTitle}</span>
+                    </Link>
+                  </h4>
+
+                  {/* subcategory */}
+                  {post.frontmatter.subCategory && (
+                    <small
+                      style={{
+                        backgroundColor: getBackgroundColor(
+                          post?.frontmatter?.subCategory
+                        ),
+                      }}
+                      className={styles.subCategory}
+                    >
+                      {post.frontmatter.subCategory}
+                    </small>
+                  )}
+
+                  {/* description */}
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: post.frontmatter.description || post.excerpt,
+                    }}
+                    itemProp="description"
+                  />
+
+                  {/* continue reading container */}
+                  <Link
                     className={styles.continueReading}
                     to={post.fields.slug}
                     itemProp="url"
@@ -105,7 +96,7 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
             </li>
           )
         })}
-      </ol>
+      </div>
     </div>
   )
 }
