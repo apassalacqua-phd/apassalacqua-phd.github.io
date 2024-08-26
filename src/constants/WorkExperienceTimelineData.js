@@ -3,8 +3,8 @@ const workExperienceTimelineData = [
     startYear: 2024,
     isPresent: true,
     entityName: "JPMORGAN CHASE & CO.",
-    location: "WASHINGTON, DC, US",
-    position: "Financial Economist - Vice President & Research Lead",
+    location: "Washington, DC, US",
+    position: "Vice President & Research Lead",
     // data: [
     // "Lead and prioritize impactful research projects related to small businesses and local economies, managing and triaging inbound requests for analysis to ensure timely completion and relevance.",
     // "Conduct original analyses of large datasets using expert coding practices and big data programming languages on a public cloud platform, producing comprehensive statistical and visual analytics.",
@@ -15,7 +15,7 @@ const workExperienceTimelineData = [
     startYear: 2024,
     isPresent: true,
     entityName: "GEORGETOWN UNIVERSITY",
-    location: "WASHINGTON, DC, US",
+    location: "Washington, DC, US",
     position:
       "Visiting Research Fellow at the AI, Analytics, and the Future of Work Initiative",
     // data: [
@@ -28,7 +28,7 @@ const workExperienceTimelineData = [
     startYear: 2024,
     isPresent: true,
     entityName: "JOHN HOPKINS CAREY BUSINESS SCHOOL",
-    location: "WASHINGTON, DC, US",
+    location: "Washington, DC, US",
     position: "Adjunct Lecturer",
   },
 
@@ -37,7 +37,7 @@ const workExperienceTimelineData = [
     endYear: 2024,
     isPresent: false,
     entityName: "ANALYSIS GROUP",
-    location: "WASHINGTON, DC, US",
+    location: "Washington, DC, US",
     position: "Associate",
   },
 
@@ -46,7 +46,7 @@ const workExperienceTimelineData = [
     endYear: 2022,
     isPresent: false,
     entityName: "BOARD OF THE GOVERNORS OF THE FEDERAL RESERVE SYSTEM",
-    location: "WASHINGTON, DC, US",
+    location: "Washington, DC, US",
     position: "Economist",
     // data: [
     // "Researched, designed, and implemented models to forecast banks’ potential losses during different hypothetical scenarios in the Dodd-Frank Act Stress Tests (DFAST).",
@@ -61,7 +61,7 @@ const workExperienceTimelineData = [
     endYear: 2020,
     isPresent: false,
     entityName: "BANK OF ITALY",
-    location: "CAGLIARI, ITALY",
+    location: "Cagliari, Italy",
     position: "Visiting Researcher",
     // data: [
     // "Analyzed the impact of the introduction of the Single Supervisory Mechanism (SSM) on the credit supply from Italian banks and the implications for the Italian economy.",
@@ -72,7 +72,7 @@ const workExperienceTimelineData = [
     startYear: 2013,
     isPresent: false,
     entityName: "THE UNIVERSITY OF CHICAGO, BOOTH SCHOOL OF BUSINESS",
-    location: "CHICAGO, ILLINOIS, US",
+    location: "Chicago, Illinois, US",
     position: "Visiting Scholar",
     // data: [
     // "Conducted research in corporate governance, banking, and political economy.",
@@ -84,8 +84,8 @@ const workExperienceTimelineData = [
     startYear: 2012,
     isPresent: false,
     entityName: "OECD, CENTER FOR ENTREPRENEURSHIP, SME, REGIONS, AND CITIES",
-    location: "TRENTO, ITALY",
-    position: "Intern",
+    location: "Trento, Italy",
+    position: "Policy Intern",
     // data: [
     // "Conducted quantitative and qualitative analysis on the impact of the Small Business Act (SBA) on the local Italian economy, which resulted in the publication of a report (here).",
     // ],

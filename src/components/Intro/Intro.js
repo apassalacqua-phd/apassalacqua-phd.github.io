@@ -49,7 +49,7 @@ const Intro = () => {
           </p>  
 
           <p>  
-            Previously I was an associate at Analysis Group, a leading financial consulting 
+            Previously, I was an associate at Analysis Group, a leading financial consulting 
             firm in the litigation industry. I began my career as a financial 
             economist at the Board of Governors of the Federal Reserve System where I worked 
             on issues related to the microeconomic and macroeconomic implications of banking 
