@@ -7,7 +7,7 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 40px;
+  gap: 5px;
 
   justify-content: space-between;
 }
@@ -100,10 +100,20 @@
   .postListItem {
     max-width: 100%;
   }
+
+  .postsListContainer {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 25px;
+  }
 }
 
 /* lg	1024px	 */
 @media (min-width: 1024px) {
+  .postsListContainer {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+  }
+
   .postListItem p {
     font-size: 13px;
   }
