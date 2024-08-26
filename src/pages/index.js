@@ -38,36 +38,47 @@ const Index = ({ data, location }) => {
   })
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <Intro />
+    <>
+      <Layout location={location} title={siteTitle}>
+        <Intro />
 
-      <div className="timelines-and-posts-container">
-        <Timeline
-          id="work-experience"
-          title="Work Experience"
-          iconSrc="/images/work-experience.svg"
-          data={workExperienceTimelineData}
-        />
-
-        <Timeline
-          id="education"
-          title="Education"
-          iconSrc="/images/education.svg"
-          data={educationTimelineData}
-        />
-
-        {/* displaying posts by category */}
-        {categories.map(category => (
-          <PostsContainer
-            id={category}
-            key={category}
-            posts={posts.filter(post => post.frontmatter.category === category)}
-            iconSrc={`/images/${category}.svg`}
-            title={makeTitleDisplayReady(category)}
+        <div className="timelines-and-posts-container">
+          <Timeline
+            id="work-experience"
+            title="Work Experience"
+            iconSrc="/images/work-experience.svg"
+            data={workExperienceTimelineData}
           />
-        ))}
-      </div>
-    </Layout>
+
+          <Timeline
+            id="education"
+            title="Education"
+            iconSrc="/images/education.svg"
+            data={educationTimelineData}
+          />
+
+          {/* displaying posts by category */}
+          {categories.map(category => (
+            <PostsContainer
+              id={category}
+              key={category}
+              posts={posts.filter(
+                post => post.frontmatter.category === category
+              )}
+              iconSrc={`/images/${category}.svg`}
+              title={makeTitleDisplayReady(category)}
+            />
+          ))}
+        </div>
+      </Layout>
+      <footer className={styles.footer}>
+        <em>
+          <strong> Disclaimer: </strong>The opinions expressed on this website
+          are solely those of Andrea Passalacqua and do not necessarily reflect
+          the views or opinions of his employer.
+        </em>
+      </footer>
+    </>
   )
 }
 
