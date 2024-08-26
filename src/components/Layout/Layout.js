@@ -9,7 +9,7 @@ const Layout = ({ location, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <div style={{ minHeight: "100vh", position: "relative" }}>
+    <>
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <Header />
         <main>{children}</main>
@@ -21,7 +21,7 @@ const Layout = ({ location, children }) => {
           the views or opinions of his employer.
         </em>
       </footer>
-    </div>
+    </>
   )
 }
 
