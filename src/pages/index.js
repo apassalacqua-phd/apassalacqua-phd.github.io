@@ -9,6 +9,8 @@ import Timeline from "../components/Timeline/Timeline"
 import educationTimelineData from "../constants/EducationTimelineData"
 import workExperienceTimelineData from "../constants/WorkExperienceTimelineData"
 
+import * as styles from "../components/Layout/Layout.module.css"
+
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
