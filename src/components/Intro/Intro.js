@@ -36,7 +36,7 @@ const Intro = () => {
             and financial analysis to policy-related questions in the financial markets. 
             I have held positions in both the government and private sectors and 
             have extensive experience working with large financial datasets, sophisticated 
-            econometric models, and simulations. 
+            econometric models, simulations and forecasting. 
           </p> 
 
 
@@ -57,15 +57,14 @@ const Intro = () => {
           </p>
 
           <p> 
-            My research interests inlcude financial intermediation, macroeconomics, household 
+            My research interests include financial intermediation, macroeconomics, household 
             finance, corporate finance, venture capital, private equity, and entrepreneurship.
           </p>
 
           <p>
             I obtained a Ph.D. from Harvard University in Spring 2020 under the
             supervision of Jeremy Stein (chair), Josh Lerner, David Scharfstein,
-            Marco Di Maggio, and Adi Sunderam. Previously, I received a BSc and
-            MSc in Economics from Bocconi University.
+            Marco Di Maggio, and Adi Sunderam. I received a BSc and MSc in Economics from Bocconi University.
           </p>
           
         </div>

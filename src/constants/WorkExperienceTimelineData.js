@@ -80,6 +80,7 @@ const workExperienceTimelineData = [
     // ],
   },
 
+
   {
     startYear: 2012,
     isPresent: false,
