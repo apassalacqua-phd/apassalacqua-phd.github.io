@@ -80,6 +80,31 @@ const workExperienceTimelineData = [
     // ],
   },
 
+  {
+    startYear: 2012,
+    endYear: 2013,
+    isPresent: false,
+    entityName: "UCLA Anderson School of Management",
+    location: "Milan, Italy",
+    position: "External Research Assistant",
+    // data: [
+    // "Conducted research in corporate governance, banking, and political economy.",
+    // "Analyzed data and write-up memos to provide key insights on the role of the CEO in spurring corporate innovation.",
+    // ],
+  },
+
+
+  {
+    startYear: 2012,
+    endYear: 2013,
+    isPresent: false,
+    entityName: "IGIER - Innocenzo Gasparini Institute for Economic Research",
+    location: "Milan, Italy",
+    position: "Research Assistant",
+    // data: [
+    // "Conducted quantitative and qualitative analysis on the impact of the Small Business Act (SBA) on the local Italian economy, which resulted in the publication of a report (here).",
+    // ],
+  },
 
   {
     startYear: 2012,
