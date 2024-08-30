@@ -33,7 +33,7 @@ const Intro = () => {
 
           <p>
             I am a financial economist with a strong background in applying economic 
-            and financial analysis to policy-related questions in the financial markets. 
+            and financial analysis to policy-related questions. 
             I have held positions in both the government and private sectors and 
             have extensive experience working with large financial datasets, sophisticated 
             econometric models, simulations and forecasting. 
