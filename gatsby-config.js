@@ -11,13 +11,13 @@ module.exports = {
   pathPrefix: "/",
   siteMetadata: {
     title: `Andrea Passalacqua`,
-    image: "http://www.apassalacqua.net/images/profile-pic.png",
+    image: "https://www.apassalacqua.net/images/profile-pic.png",
     author: {
       name: `Andrea Passalacqua`,
       summary: `Financial Economist at JPMorgan Chase & Co. | Research Interest in Financial Intermediation, Macroeconomics and Finance`,
     },
     description: `Andrea Passalacqua - Financial Economist at JPMorgan Chase & Co. | Research Interest in Financial Intermediation, Macroeconomics and Finance`,
-    siteUrl: `http://www.apassalacqua.net`,
+    siteUrl: `https://www.apassalacqua.net`,
     social: {
       twitter: `passalacquaand`,
     },

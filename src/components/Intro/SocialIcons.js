@@ -9,7 +9,7 @@ const SocialIcons = () => {
   return (
     <div className={styles.socialIconsContainer}>
       <a
-        href="http://www.linkedin.com/in/andrea-passalacqua-158b305b"
+        href="https://www.linkedin.com/in/andrea-passalacqua-158b305b"
         target="_blank"
         rel="noopener noreferrer"
       >
