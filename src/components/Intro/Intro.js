@@ -22,8 +22,8 @@ const Intro = () => {
         </h2>
 
         <h3 className={styles.subSubTitle}>
-          Research Interest in Financial Intermediation, Macroeconomics and
-          Finance
+          Research Interest in Finance, Macroeconomics and
+          Financial Intermediation
         </h3>
 
         <SocialIcons />
@@ -34,7 +34,7 @@ const Intro = () => {
           <p>
             I am a financial economist with a strong background in applying economic 
             and financial analysis to policy-related questions. 
-            I have held positions in both the government and private sectors and 
+            I have held positions in both the government and the private sector and 
             have extensive experience working with large financial datasets, sophisticated 
             econometric models, simulations and forecasting. 
           </p> 
@@ -42,10 +42,9 @@ const Intro = () => {
 
           <p>
             I currently serve as Vice President and Data Research Lead at 
-            JPMorgan Chase & Co. I also hold a position as an Adjunct Instructor at John 
-            Hopkins University Carey Business School and I am a Visiting Research Fellow at 
-            at the AI, Analytics, and the Future of Work Initiative within Georgetown 
-            University McDonough School of Business. 
+            JPMorgan Chase & Co. I also hold a position as an Adjunct Instructor at [John 
+              Hopkins University Carey Business School](https://carey.jhu.edu/faculty/andrea-passalacqua-phd) and I am a Visiting Research Fellow at the AI, Analytics, and the Future of Work Initiative within [Georgetown 
+              University McDonough School of Business](https://gufaculty360.georgetown.edu/s/contact/003UH00000FAg8cYAD/andrea-passalacqua).
           </p>  
 
           <p>  
@@ -71,7 +70,7 @@ const Intro = () => {
 
         <a
           className={styles.getMyResume}
-          href="/Passalacqua_CV_industry_August2024_alternative.docx"
+          href="/Passalacqua_CV_Academic_September2024.docx"
           target="_blank"
           rel="noopener noreferrer"
         >
