@@ -42,9 +42,18 @@ const Intro = () => {
 
           <p>
             I currently serve as Vice President and Data Research Lead at 
-            JPMorgan Chase & Co. I also hold a position as an Adjunct Instructor at [John 
-              Hopkins University Carey Business School](https://carey.jhu.edu/faculty/andrea-passalacqua-phd) and I am a Visiting Research Fellow at the AI, Analytics, and the Future of Work Initiative within [Georgetown 
-              University McDonough School of Business](https://gufaculty360.georgetown.edu/s/contact/003UH00000FAg8cYAD/andrea-passalacqua).
+            JPMorgan Chase & Co. I also hold a position as an Adjunct Instructor at{" "}
+            <a 
+                      target="_blank"
+          rel="noopener noreferrer"
+            href="https://carey.jhu.edu/faculty/andrea-passalacqua-phd">John 
+            Hopkins University Carey Business School</a>{" "}
+              and I am a Visiting Research Fellow at the AI, Analytics, and the Future of Work Initiative within {" "}
+            <a
+                      target="_blank"
+          rel="noopener noreferrer"
+            href="https://gufaculty360.georgetown.edu/s/contact/003UH00000FAg8cYAD/andrea-passalacqua">Georgetown 
+            University McDonough School of Business</a>{" "}.
           </p>  
 
           <p>  
