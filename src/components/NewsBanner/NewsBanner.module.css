@@ -1,0 +1,36 @@
+.globalHeader {
+  font-family: var(--font-heading);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 20;
+  font-size: 10px;
+  background: linear-gradient(
+    120deg,
+    #f3f4f6,
+    #e5e7ebfe
+  ); /* light grey tones */
+}
+
+.globalHeader > div > strong {
+  color: var(--color-heading);
+  font-weight: var(--fontWeight-bold);
+  font-family: var(--font-heading);
+  text-decoration: none;
+  cursor: pointer;
+  /* text-decoration: underline; */
+  /* font-style: oblique; */
+}
+
+@media (min-width: 530px) {
+  .globalHeader {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 965px) {
+  .globalHeader {
+    font-size: 16px;
+  }
+}

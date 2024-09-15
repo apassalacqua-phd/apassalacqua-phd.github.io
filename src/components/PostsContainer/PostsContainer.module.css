@@ -1,20 +1,14 @@
-.postsContainer {
-  margin-top: 20px;
-}
-
 .postsListContainer {
   list-style: none;
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 5px;
+  gap: 30px;
 
   justify-content: space-between;
 }
 
 .postListItem {
-  margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
   background-color: #ebf7ff;
   border-radius: 4px;
   padding: 15px;
@@ -23,6 +17,7 @@
   grid-template-rows: auto 1fr auto;
   gap: 20px;
   position: relative;
+  height: 100%;
 }
 
 .postListItem p {
@@ -51,28 +46,48 @@
   height: 100%;
 }
 
-.continueReading {
-  display: flex;
-  align-items: center;
-  gap: 0 4px;
+.description {
+  padding-bottom: 20px;
+}
+
+.buttonsContainer {
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-heading);
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 10px;
+  right: 0px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2px;
+  column-gap: 10px;
+  align-items: center;
 }
 
-.continueReading > span {
+.actionButton {
+  display: flex;
+  align-items: center;
+  gap: 0 4px;
+  text-decoration: underline;
+}
+
+.actionButton > span {
   margin-top: 2px;
 }
 
-.continueReading > * {
+.actionButton > * {
   color: var(--color-primary);
   font-size: 12px;
 }
 
-.continueReadingIcon {
+.actionButtonIcon {
   font-size: 15px;
   margin-bottom: 12px;
 }
@@ -102,8 +117,7 @@
   }
 
   .postsListContainer {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
 
@@ -111,7 +125,6 @@
 @media (min-width: 1024px) {
   .postsListContainer {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
   }
 
   .postListItem p {
@@ -127,8 +140,11 @@
     padding: 20px 30px;
   }
 
-  .continueReading {
+  .buttonsContainer {
     bottom: 20px;
-    right: 30px;
+    right: 0px;
+
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }

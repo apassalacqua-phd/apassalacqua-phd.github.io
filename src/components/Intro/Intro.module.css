@@ -19,7 +19,6 @@
 
 .subSubTitle {
   margin-top: 10px;
-  /* margin-bottom: 0px; */
   margin-bottom: 0px;
 
   font-family: "EB Garamond", Garamond, serif;
@@ -83,6 +82,7 @@
 .getMyResume > h5 {
   font-size: 15px;
   color: var(--color-primary);
+  margin-bottom: -40px;
 }
 
 @media (max-width: 530px) {

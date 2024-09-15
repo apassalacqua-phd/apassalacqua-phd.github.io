@@ -10,6 +10,7 @@ import educationTimelineData from "../constants/EducationTimelineData"
 import workExperienceTimelineData from "../constants/WorkExperienceTimelineData"
 
 import * as styles from "../components/Layout/Layout.module.css"
+import NewsBanner from "../components/NewsBanner/NewsBanner"
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -41,6 +42,7 @@ const Index = ({ data, location }) => {
 
   return (
     <>
+      <NewsBanner />
       <Layout location={location} title={siteTitle}>
         <Intro />
 
@@ -74,11 +76,26 @@ const Index = ({ data, location }) => {
         </div>
       </Layout>
       <footer className={styles.footer}>
-        <em>
-          <strong> Disclaimer: </strong>The opinions expressed on this website
-          are solely those of Andrea Passalacqua and do not necessarily reflect
-          the views or opinions of his employer.
-        </em>
+        <div className="global-wrapper">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "10px",
+              alignItems: "center",
+            }}
+          >
+            <span>
+              © {new Date().getFullYear()} Andrea Passalacqua. All Rights
+              Reserved.
+            </span>{" "}
+            <em>
+              <strong> Disclaimer: </strong>The opinions expressed on this
+              website are solely those of Andrea Passalacqua and do not
+              necessarily reflect the views or opinions of his employer.
+            </em>
+          </div>
+        </div>
       </footer>
     </>
   )
@@ -110,6 +127,12 @@ export const query = graphql`
           description
           category
           subCategory
+          sortOrder
+          primaryButtonTitle
+          secondaryButtonTitle
+          secondaryButtonLink
+          tertiaryButtonTitle
+          tertiaryButtonContent
           cover {
             publicURL
           }

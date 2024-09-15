@@ -37,7 +37,20 @@ const BlogPostTemplate = ({
               />
             )}
 
+            {/* TODO: confirm the desc. content for SEO indexing  */}
             <p itemProp="description">{post.frontmatter.description}</p>
+
+            {post.frontmatter.tertiaryButtonContent && (
+              <p itemProp="description">
+                {
+                  <>
+                    <strong>{`ABSTRACT: `}</strong>
+                    <span>{post.frontmatter.tertiaryButtonContent}</span>
+                  </>
+                }
+              </p>
+            )}
+
             <hr />
 
             {/* <small className={styles.subCategory}>
@@ -102,6 +115,7 @@ export const pageQuery = graphql`
         description
         category
         subCategory
+        tertiaryButtonContent
         cover {
           publicURL
         }

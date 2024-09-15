@@ -1,0 +1,82 @@
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.popupContainer {
+  display: flex;
+  flex-direction: column;
+  width: 573px;
+  gap: 12px;
+  border-radius: 12px;
+  border: 1px solid #cccccc;
+  background-color: white;
+  padding: 32px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popupHeader {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.popupTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  font-family: "EB Garamond", Garamond, serif;
+  color: var(--color-heading);
+  font-weight: var(--fontWeight-black);
+  line-height: 20px;
+}
+
+.popupContentHeading {
+  color: var(--color-heading);
+  font-size: 20px;
+  text-align: center;
+  font-family: "EB Garamond", Garamond, serif;
+  font-weight: var(--fontWeight-bold);
+}
+
+.popupContent {
+  font-size: 12px;
+  font-style: oblique;
+}
+
+.popupTitle .itemType {
+  color: #1a73e8;
+}
+
+.horizontalDivider {
+  margin-top: 8px;
+  width: 100%;
+  border-top: 2px solid #cccccc;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .popupContent {
+    font-size: 11px;
+  }
+
+  .popupTitle {
+    font-size: 16px;
+  }
+}

@@ -4,8 +4,15 @@ description: with Paolo Angelini (Bank of Italy), Francesca Lotti (Bank of Italy
 date: "2015-05-06T23:46:37.121Z"
 category: "research"
 subCategory: "Working Papers"
-order: 2
+sortOrder: 2
 cover: "./cover.png"
+secondaryButtonTitle: "Read full paper"
+secondaryButtonLink: "/posts/research/the-real-effects-of-bank-supervision-evidence-from-on-site-bank-inspections/real_effect_banking_inspection_august2021.pdf"
+
+tertiaryButtonTitle: "Read abstract"
+tertiaryButtonContent: "We show that bank supervision reduces distortions in credit markets and generates positive spillovers for the real economy. Combining a novel administrative dataset of unexpected bank inspections with a quasi-random selection of inspected banks in Italy, we show that inspected banks are more likely to reclassify loans as non performing after an audit. This behavior suggests that banks are inclined to misreport loan losses and evergreen credit to underperforming ﬁrms unless audited. We ﬁnd that this reclassiﬁcation of loans leads to a temporary contraction in lending by audited banks. However, this eﬀect is completely driven by a credit cut to underperforming ﬁrms, as the composition of new lending shifts toward more productive ﬁrms. As a result, these productive ﬁrms increase employment and invest more in ﬁxed capital. We provide evidence of a mechanisms for our results: a change in bank governance. Finally, we ﬁnd positive spillovers from inspections: entrepreneurship increases, underperforming ﬁrms are more likely to exit the market, and there is an overall increase in productivity in the local economy as a result. Taken together, our results show that bank supervision is an important complement to regulation in improving credit allocation.
+
+"
 ---
 
 The Real Effects of Bank Supervision: Evidence from On-Site Bank Inspections with [Paolo Angelini](https://www.bancaditalia.it/chi-siamo/organizzazione/ac/vigilanza-bancaria-finanziaria/angelini/index.html?com.dotmarketing.htmlpage.language=1), [Francesca Lotti](https://sites.google.com/site/francescalotti/francescalotti-homepage?authuser=0) and Giovanni Soggia
@@ -16,20 +23,27 @@ The Real Effects of Bank Supervision: Evidence from On-Site Bank Inspections wit
 - Awarded the [2021 WFA Elsevier Sponsored Award for the best paper on financial institutions](https://westernfinance.org/wp-content/uploads/2021.links_.pdf)
 - Semifinalist at the 2021 FMA Annual Meeting for the best paper on financial institutions
 
-_Abstract: We show that bank supervision reduces distortions in credit markets and generates positive spillovers for the real economy. Combining a novel administrative dataset of unexpected bank inspections with a quasi-random selection of inspected banks in Italy, we show that inspected banks are more likely to reclassify loans as non performing after an audit. This behavior suggests that banks are inclined to misreport loan losses and evergreen credit to underperforming ﬁrms unless audited. We ﬁnd that this reclassiﬁcation of loans leads to a temporary contraction in lending by audited banks. However, this eﬀect is completely driven by a credit cut to underperforming ﬁrms, as the composition of new lending shifts toward more productive ﬁrms. As a result, these productive ﬁrms increase employment and invest more in ﬁxed capital. We provide evidence of a mechanisms for our results: a change in bank governance. Finally, we ﬁnd positive spillovers from inspections: entrepreneurship increases, underperforming ﬁrms are more likely to exit the market, and there is an overall increase in productivity in the local economy as a result. Taken together, our results show that bank supervision is an important complement to regulation in improving credit allocation._
-
-
 **<u>Summary:</u>**
 
 Bank supervision is a critical component of financial regulation, designed to ensure the stability and integrity of financial institutions. This paper focuses on the **real effects** of bank supervision, specifically through **on-site inspections**, on the allocation of credit and broader economic outcomes. Using a novel dataset from Italy, where the Bank of Italy conducts unexpected and rigorous audits of banks, the authors investigate how these inspections impact banks' lending behaviors, governance structures, and the economic health of the regions they serve. The findings reveal that on-site inspections not only lead to more accurate loan classifications but also drive a reallocation of credit towards more productive firms, ultimately benefiting the real economy.
 
 **<u>Impact of Bank Supervision:</u>**
 
-- **Loan Reclassification:** One of the immediate impacts of on-site inspections is the **reclassification of loans** as non-performing. Inspections uncover instances where banks have previously misreported the quality of their loans, often to avoid recognizing losses that would adversely affect their balance sheets. By forcing banks to reclassify underperforming loans, the inspections ensure that the banks’ financial statements reflect a more accurate and transparent view of their actual risk exposure.
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
 
-Suggested Figure: Figure 1: Impact of Inspections on NPL Ratios
-This figure visually represents the increase in Non-Performing Loan (NPL) ratios after inspections, highlighting the effectiveness of supervision in improving loan classification accuracy.
-![Impact of Inspections on other NPL](./real_effect_inspection_otherNPL.png)
+  <!-- left side: content -->
+  <div style="width: 60%; padding-right: 20px;">
+    <strong>Loan Reclassification:</strong> One of the immediate impacts of on-site inspections is the <strong>reclassification of loans</strong> as non-performing. Inspections uncover instances where banks have previously misreported the quality of their loans, often to avoid recognizing losses that would adversely affect their balance sheets. By forcing banks to reclassify underperforming loans, the inspections ensure that the banks’ financial statements reflect a more accurate and transparent view of their actual risk exposure.
+  </div>
+
+  <!-- right side: image and text under it -->
+  <div style="width: 40%; text-align: center;">
+    <img src="./real_effect_inspection_otherNPL.png" alt="Impact of Inspections on other NPL" style="max-width: 100%; height: auto;" />
+    <p><strong>Figure 1: Impact of Inspections on NPL Ratios</strong><br />
+    This figure visually represents the increase in Non-Performing Loan (NPL) ratios after inspections, highlighting the effectiveness of supervision in improving loan classification accuracy.</p>
+  </div>
+
+</div>
 
 - **Credit Supply Adjustment:** Inspections lead to a **temporary contraction in lending**, primarily affecting loans to underperforming or “zombie” firms—those that are struggling to survive but continue to receive credit. By cutting off these unproductive loans, banks reallocate their resources to healthier, more productive firms. This reallocation not only enhances the efficiency of credit allocation but also stimulates **investment and employment** in sectors that contribute more significantly to economic growth.
 
@@ -46,11 +60,7 @@ The study employs a dynamic Difference-in-Differences (DiD) model to robustly es
 
 - **Loan Classification:** The analysis shows that banks increase the stock of loans classified as Non-Performing Loans (NPLs) by approximately 3.6% following an inspection. This significant uptick in NPL classification is indicative of the inspections’ effectiveness in uncovering and correcting misreported loan statuses.
 
-
-
 - **Credit Reallocation:** The study finds that inspections result in a 66% reduction in credit extended to zombie firms. This substantial decrease in unproductive lending highlights the role of inspections in preventing the misallocation of financial resources. Instead, credit is redirected towards firms with better growth prospects, leading to more efficient use of capital within the economy.
-
-
 
 **<u>Results:</u>**
 
@@ -73,8 +83,6 @@ The findings of this study provide compelling evidence that **rigorous bank supe
 - **Targeted Inspections:** The findings suggest that targeted inspections, especially for banks with a high proportion of underperforming loans, can have significant **positive effects** on the economy. Policymakers should consider prioritizing resources for the supervision of banks that are most likely to benefit from these interventions.
 
 - **Governance Reforms:** The results highlight the need for ongoing **governance reforms** within banks. Inspections not only enforce compliance with existing regulations but also drive improvements in internal controls and governance practices. This ensures that banks are better equipped to manage risks and support economic growth in the long term.
-
-
 
 [Suggested Citation](/posts/research/the-real-effects-of-bank-supervision-evidence-from-on-site-bank-inspections/suggested_citation_bibtex.pdf)
 

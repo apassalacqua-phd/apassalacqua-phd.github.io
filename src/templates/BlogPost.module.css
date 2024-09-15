@@ -9,11 +9,15 @@
   gap: 20px 0;
 }
 
-.headerDetails > p:first-of-type {
+.headerDetails > p > span {
   /* for custom italic styling */
-  display: inline-block;
   transform: skewX(3deg);
   font-style: italic;
+}
+
+.headerDetails > p > strong {
+  font-family: "EB Garamond", Garamond, serif;
+  font-weight: var(--fontWeight-bold);
 }
 
 .desktopCoverImage {

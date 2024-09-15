@@ -276,10 +276,3 @@ a:focus {
     max-width: 100%;
   }
 }
-
-/* Lg	1024px	 */
-@media (min-width: 1024px) {
-  .timelines-and-posts-container {
-    margin-top: 40px;
-  }
-}

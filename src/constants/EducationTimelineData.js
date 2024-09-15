@@ -8,10 +8,6 @@ const educationTimelineData = [
     data: [
       "Ph.D. and Master of Arts in Political Economy and Government (Econ track).",
       "Advisors: Jeremy Stein (chair), Marco Di Maggio, Josh Lerner, David Scharfstein, and Adi Sunderam.",
-      // "Conducted research in empirical corporate finance, venture capital, innovation, banking, and household finance.",
-      // "Published an article in the Handbook of Macroeconomics.",
-      // "Awarded the 2020 Boston FED Dissertation Fellowship and the Jens Aubrey Westengard Award.",
-      // "Taught courses on Macroeconomics, Empirical Methods for Finance, Corporate Finance, Entrepreneurship, and Econometrics.",
     ],
   },
 

@@ -4,16 +4,14 @@ description: with Anya Kleymenova (Fed Board), Jeffrey Jou (Wharton), Laszlo San
 date: "2015-05-06T23:46:37.121Z"
 category: "research"
 subCategory: "Working Papers"
-order: 2
+sortOrder: 3
 cover: "./cover.png"
-button2Link: "/posts/research/disciplining-banks-through-disclosure-evidence-from-cfpb-consumer-complaints/suggested_citation_bibtex.pdf"
+tertiaryButtonTitle: "Read abstract"
+tertiaryButtonContent: "We study whether the disclosure of consumer complaints about their banks changes affected banks’ provision of consumer credit. Using a novel confidential dataset containing consumer complaints from the Consumer Financial Protection Bureau (CFPB) and matching it with confidential data on mortgages, deposits, and market prices, we find that banks subject to prudential and CFPB oversight, which receive consumer complaints experience a decline in their share prices and an increase in trading volumes. These banks also see a decrease in deposit and mortgage market shares, with more complaints resulting in higher deposit withdrawals. We find limited evidence that banks change deposit rates in response. Finally, we implement textual analysis to study the differential impact of consumer complaints. First, we identify the main topics related to the complaints. Second, we find that consumer disappointment is associated with a decrease in aggregate deposits. Overall, we provide new evidence on the role of information disclosure as a disciplinary mechanism in providing credit. (previously circulated as “Regulatory Disclosure and Access to Credit”)."
 ---
 
 **Presented:** Federal Reserve Board, AEA Annual Meeting, JAAF-ATP India
-Symposium, Yale University, Haskayne and Fox Accounting Conference, the IMF, and AAA Annual Meeting, FDIC*
-
-_ABSTRACT: We study whether the disclosure of consumer complaints about their banks changes affected banks’ provision of consumer credit. Using a novel confidential dataset containing consumer complaints from the Consumer Financial Protection Bureau (CFPB) and matching it with confidential data on mortgages, deposits, and market prices, we find that banks subject to prudential and CFPB oversight, which receive consumer complaints experience a decline in their share prices and an increase in trading volumes. These banks also see a decrease in deposit and mortgage market shares, with more complaints resulting in higher deposit withdrawals. We find limited evidence that banks change deposit rates in response. Finally, we implement textual analysis to study the differential impact of consumer complaints. First, we identify the main topics related to the complaints. Second, we find that consumer disappointment is associated with a decrease in aggregate deposits. Overall, we provide new evidence on the role of information disclosure as a disciplinary mechanism in providing credit.
-(previously circulated as “Regulatory Disclosure and Access to Credit”)_
+Symposium, Yale University, Haskayne and Fox Accounting Conference, the IMF, and AAA Annual Meeting, FDIC\*
 
 **<u>Summary:</u>**
 
@@ -50,7 +48,6 @@ To validate the impact of consumer complaint disclosures, the study examines the
 - Mortgage Market Spillover: The analysis shows a decline in mortgage market share for banks with disclosed complaints, indicating that the impact of public disclosures extends beyond deposits to other financial services.
 
 ![Distribution of complaints over time by product type](./disciplining_6.png)
-
 
 **Takeaways:**
 

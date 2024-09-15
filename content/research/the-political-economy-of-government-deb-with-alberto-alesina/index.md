@@ -4,15 +4,16 @@ date: "2015-05-01T22:12:03.284Z"
 description: "with Alberto Alesina (Harvard University)"
 category: "research"
 subCategory: "Publications"
-order: 1
-bottonButtonTitle1: Continue Reading
+sortOrder: 1
 cover: "./cover.png"
+secondaryButtonTitle: "Read full paper"
+secondaryButtonLink: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2706322"
+
+tertiaryButtonTitle: "Read abstract"
+tertiaryButtonContent: "This paper reviews the political economy literature on why governments often accumulate more debt than what would be considered optimal according to fiscal policy prescriptions. The focus is on understanding the political distortions that lead to these departures from optimal debt management, and the potential institutional designs that could moderate these tendencies."
 ---
 
 > Handbook of Macroeconomics, Volume 2, 2016, Pages 2599-2651
-
-_Abstract: This paper reviews the political economy literature on why governments often accumulate more debt than what would be considered optimal according to fiscal policy prescriptions. The focus is on understanding the political distortions that lead to these departures from optimal debt management, and the potential institutional designs that could moderate these tendencies._
-
 
 **<u>Summary:</u>**
 
@@ -20,14 +21,16 @@ Governments often accumulate more debt than what would be considered optimal acc
 
 **<u>Impact of Political Distortions:</u>**
 
-- **Redistributive Role of Fiscal Policy:** 
-    - Fiscal policy is deeply intertwined with politics due to its redistributive nature across individuals, regions, and generations. The expansion of welfare states and redistributive programs has intensified the political conflicts surrounding fiscal decisions.
+- **Redistributive Role of Fiscal Policy:**
+
+  - Fiscal policy is deeply intertwined with politics due to its redistributive nature across individuals, regions, and generations. The expansion of welfare states and redistributive programs has intensified the political conflicts surrounding fiscal decisions.
 
 - **Optimal Debt Management Theories:**
-    - The authors discuss key theories like Barro’s tax-smoothing hypothesis and analyze deviations from these optimal policies, particularly within OECD countries. Theories of optimal debt policies often fall short in practical applications, as shown by historical evidence of debt accumulation during non-crisis periods.
 
-- **Excessive Debt Accumulation:** 
-    - Political budget cycles, wars of attrition, and strategic use of debt by governments are identified as primary reasons for excessive debt accumulation. These mechanisms often delay necessary fiscal stabilizations and contribute to higher debt levels than what would be considered optimal.
+  - The authors discuss key theories like Barro’s tax-smoothing hypothesis and analyze deviations from these optimal policies, particularly within OECD countries. Theories of optimal debt policies often fall short in practical applications, as shown by historical evidence of debt accumulation during non-crisis periods.
+
+- **Excessive Debt Accumulation:**
+  - Political budget cycles, wars of attrition, and strategic use of debt by governments are identified as primary reasons for excessive debt accumulation. These mechanisms often delay necessary fiscal stabilizations and contribute to higher debt levels than what would be considered optimal.
 
 ![Figure 1: Ratio of Public Debt to Trend Real GDP in the USA, 1790-2012](./pe_figure1.png)
 
@@ -49,9 +52,7 @@ To assess the deficit bias in modern economies, the study reviews historical evi
 
 - **Fiscal Rules:** The effectiveness of fiscal rules, such as balanced budget requirements, is examined. The paper debates the trade-offs between the rigidity of these rules and the need for flexibility in fiscal management. While such rules can mitigate excessive deficits, they are often difficult to enforce due to political resistance.
 
-
 ![Figure 4: Low Debt Countries: Ratio of Public Debt to Trend Real GDP, 1880-2000](./pe_figure4.png)
-
 
 **<u>Takeaways:</u>**
 
