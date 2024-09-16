@@ -1,4 +1,4 @@
-const newsBannerContent = null
-// "I will be going on a vacation soon and am looking forward to taking a break from my usual routine."
+const newsBannerContent = 
+ "I will present my paper 'Disciplining Banks through Disclosure: Evidence from CFPB Consumer Complaints' at the FDIC's 23th Bank Reserch Conference on September 19" 
 
 export default newsBannerContent
