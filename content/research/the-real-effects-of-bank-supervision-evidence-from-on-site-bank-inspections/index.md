@@ -15,7 +15,7 @@ tertiaryButtonContent: "We show that bank supervision reduces distortions in cre
 "
 ---
 
-The Real Effects of Bank Supervision: Evidence from On-Site Bank Inspections with [Paolo Angelini](https://www.bancaditalia.it/chi-siamo/organizzazione/ac/vigilanza-bancaria-finanziaria/angelini/index.html?com.dotmarketing.htmlpage.language=1), [Francesca Lotti](https://sites.google.com/site/francescalotti/francescalotti-homepage?authuser=0) and Giovanni Soggia
+<!-- The Real Effects of Bank Supervision: Evidence from On-Site Bank Inspections with [Paolo Angelini](https://www.bancaditalia.it/chi-siamo/organizzazione/ac/vigilanza-bancaria-finanziaria/angelini/index.html?com.dotmarketing.htmlpage.language=1), [Francesca Lotti](https://sites.google.com/site/francescalotti/francescalotti-homepage?authuser=0) and Giovanni Soggia -->
 
 **Presented:** CEMFI, Purdue University Kranner School of Management, FED Board, FRBNY, John Hopkins SAIS, Brandeis International Business School, Boston FED, Queen Mary University of London, Goldman Sachs, NERA, FIRS 2021, MFA 2021, EFA 2021, SFS Cavalcade North America 2021, Global Finance Conference 2021, WFA 2021, CAFRAL Reserve Bank of India, NFA 2021, FMA 2021, 2021 Community Banking in the 21st Century Research and Policy Conference, University of Cagliari
 
@@ -33,19 +33,24 @@ Bank supervision is a critical component of financial regulation, designed to en
 
   <!-- left side: content -->
   <div style="width: 60%; padding-right: 20px;">
-    <strong>Loan Reclassification:</strong> One of the immediate impacts of on-site inspections is the <strong>reclassification of loans</strong> as non-performing. Inspections uncover instances where banks have previously misreported the quality of their loans, often to avoid recognizing losses that would adversely affect their balance sheets. By forcing banks to reclassify underperforming loans, the inspections ensure that the banks’ financial statements reflect a more accurate and transparent view of their actual risk exposure.
+  <strong>Loan Reclassification:</strong> The short-run impact of on-site inspections is the <strong>reclassification of loans</strong> as non-performing. Inspections uncover instances where banks have previously misreported the quality of their loans, often to avoid recognizing losses that would adversely affect their balance sheets. By forcing banks to reclassify underperforming loans, the inspections ensure that the banks’ financial statements reflect a more accurate and transparent view of their actual risk exposure.
   </div>
 
   <!-- right side: image and text under it -->
   <div style="width: 40%; text-align: center;">
     <img src="./real_effect_inspection_otherNPL.png" alt="Impact of Inspections on other NPL" style="max-width: 100%; height: auto;" />
     <p><strong>Figure 1: Impact of Inspections on NPL Ratios</strong><br />
-    This figure visually represents the increase in Non-Performing Loan (NPL) ratios after inspections, highlighting the effectiveness of supervision in improving loan classification accuracy.</p>
+   </p>
   </div>
 
 </div>
 
-- **Credit Supply Adjustment:** Inspections lead to a **temporary contraction in lending**, primarily affecting loans to underperforming or “zombie” firms—those that are struggling to survive but continue to receive credit. By cutting off these unproductive loans, banks reallocate their resources to healthier, more productive firms. This reallocation not only enhances the efficiency of credit allocation but also stimulates **investment and employment** in sectors that contribute more significantly to economic growth.
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+
+  <!-- left side: content -->
+  <div style="width: 60%; padding-right: 20px;">
+<strong>Credit Supply Adjustment:</strong>  Inspections lead to a **temporary contraction in lending**, primarily affecting loans to underperforming or “zombie” firms—those that are struggling to survive but continue to receive credit. By cutting off these unproductive loans, banks reallocate their resources to healthier, more productive firms. This reallocation not only enhances the efficiency of credit allocation but also stimulates **investment and employment** in sectors that contribute more significantly to economic growth.
+<div>
 
 ![Impact of Inspections on Total Loans](./real_effect_inspection_totloans.png)
 

@@ -74,13 +74,18 @@ const Intro = () => {
           </p>
 
           <p>
-            I obtained a Ph.D. from Harvard University in Spring 2020 under the
+            I obtained a Ph.D. and a M.A. from{" "} 
+            <a
+                      target="_blank"
+          rel="noopener noreferrer"
+            href="https://scholar.harvard.edu/apassalacqua/home">Harvard University</a>{" "}
+             in Spring 2020 under the
             supervision of Jeremy Stein (chair), Josh Lerner, David Scharfstein,
             Marco Di Maggio, and Adi Sunderam. I received a BSc and MSc in Economics from Bocconi University.
           </p>
           
         </div>
-
+        
         <a
           className={styles.getMyResume}
           href="/Passalacqua_CV_Academic_September2024.docx"

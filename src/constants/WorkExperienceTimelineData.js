@@ -21,7 +21,7 @@ const workExperienceTimelineData = [
   {
     startYear: 2024,
     isPresent: true,
-    entityName: "JOHN HOPKINS CAREY BUSINESS SCHOOL",
+    entityName: "JOHN HOPKINS UNIVERSITY CAREY BUSINESS SCHOOL",
     location: "Washington, DC, US",
     data: ["Adjunct Lecturer"],
   },
@@ -67,7 +67,7 @@ const workExperienceTimelineData = [
     startYear: 2012,
     endYear: 2013,
     isPresent: false,
-    entityName: "UCLA Anderson School of Management",
+    entityName: "UCLA UNIVERSITY ANDERSON SCHOOL OF MANAGEMENT",
     location: "Milan, Italy",
     data: ["External Research Assistant"],
   
@@ -78,7 +78,7 @@ const workExperienceTimelineData = [
     startYear: 2012,
     endYear: 2013,
     isPresent: false,
-    entityName: "IGIER - Innocenzo Gasparini Institute for Economic Research",
+    entityName: "IGIER INNOCENZO GASPARINI INSTITUTE FOR ECONOMIC RESEARCH",
     location: "Milan, Italy",
     data: ["Research Assistant"],
   
