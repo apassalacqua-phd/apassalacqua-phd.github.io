@@ -1,11 +1,9 @@
 ---
-title: Papanikolaou and Sun “The impact of traditional and modern media on financial stability”
+title: "Papanikolaou and Sun (2021): “The impact of traditional and modern media on financial stability”"
 description: Global Finance Association (GFA) Meeting 2021
 date: "2015-05-06T23:46:37.121Z"
 category: "discussions"
 primaryButtonTitle: "View DISCUSSION"
 ---
 
-Global Finance Association (GFA) Meeting 2021
-
-[Link here](/posts/discussions/papanikolaou-sun-the-impact-of-traditional-and-modern-media-on-financial-stability/Discussion.pdf)
+Please find the link to the discussion slides here [here](/posts/discussions/papanikolaou-sun-the-impact-of-traditional-and-modern-media-on-financial-stability/Discussion.pdf)

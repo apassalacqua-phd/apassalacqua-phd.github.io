@@ -33,7 +33,7 @@ const Intro = () => {
 
           <p>
             I am a financial economist with a strong background in applying economic 
-            and financial analysis to policy-related questions. 
+            and financial analysis to answer policy-related questions. 
             I have held positions in both the government and the private sector and 
             have extensive experience working with large financial datasets, sophisticated 
             econometric models, simulations and forecasting. 
@@ -41,14 +41,18 @@ const Intro = () => {
 
 
           <p>
-            I currently serve as Vice President and Data Research Lead at 
-            JPMorgan Chase & Co. I also hold a position as an Adjunct Instructor at{" "}
+            I currently serve as <b>Vice President and Research Lead</b> at <b>JPMorgan Chase & Co</b>. I also hold a position as an <b>Adjunct Instructor</b> at{" "}
             <a 
                       target="_blank"
           rel="noopener noreferrer"
             href="https://carey.jhu.edu/faculty/andrea-passalacqua-phd">John 
             Hopkins University Carey Business School</a>{" "}
-              and I am a Visiting Research Fellow at the AI, Analytics, and the Future of Work Initiative within {" "}
+              and I am a <b>Visiting Research Fellow</b> at the{" "} 
+              <a
+                      target="_blank"
+          rel="noopener noreferrer"
+            href="https://futureofwork.georgetown.edu/faculty-research/">AI, Analytics, and the Future of Work Initiative</a>{" "}
+               within {" "}
             <a
                       target="_blank"
           rel="noopener noreferrer"

@@ -1,4 +1,4 @@
 const newsBannerContent = 
- "I will present my paper 'Disciplining Banks through Disclosure: Evidence from CFPB Consumer Complaints' at the FDIC's 23th Bank Reserch Conference on September 19" 
+ "The paper ''Disciplining Banks through Disclosure: Evidence from CFPB Consumer Complaints'' is set to be presented at the 2024 Community Banking REsearch Conference on October 2, 2024. " 
 
 export default newsBannerContent
