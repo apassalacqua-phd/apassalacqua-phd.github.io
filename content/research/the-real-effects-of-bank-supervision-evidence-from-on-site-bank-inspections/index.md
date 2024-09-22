@@ -5,7 +5,7 @@ date: "2015-05-06T23:46:37.121Z"
 category: "research"
 subCategory: "Working Papers"
 sortOrder: 2
-cover: "./cover.png"
+cover: "./cover_bank.png"
 secondaryButtonTitle: "Read full paper"
 secondaryButtonLink: "/posts/research/the-real-effects-of-bank-supervision-evidence-from-on-site-bank-inspections/real_effect_banking_inspection_august2021.pdf"
 
@@ -56,8 +56,6 @@ Bank supervision is a critical component of financial regulation, designed to en
 
 - **Governance and Internal Controls:** Beyond immediate financial adjustments, inspections also prompt changes in the **governance and internal controls** of the banks. The turnover of board members increases following inspections, as do efforts to strengthen internal monitoring processes. These changes help to reduce moral hazard and align the interests of bank management with regulatory requirements and long-term financial stability. The inspections, therefore, act as a catalyst for broader organizational improvements that can have lasting benefits for the bank's performance and the economy.
 
-Suggested Figure: Figure 9: Bank Governance Changes Following Inspections
-This figure shows the correlation between bank inspections and subsequent changes in governance, such as increased board turnover.
 
 **<u>Testing the Impact:</u>**
 

@@ -5,7 +5,7 @@ description: "with Alberto Alesina (Harvard University)"
 category: "research"
 subCategory: "Publications"
 sortOrder: 1
-cover: "./cover.png"
+cover: "./cover_gov.png"
 secondaryButtonTitle: "Read full paper"
 secondaryButtonLink: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2706322"
 
