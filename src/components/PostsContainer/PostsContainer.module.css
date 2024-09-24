@@ -116,6 +116,10 @@
   .coverImageContainer {
     display: none;
   }
+
+  .coverImage {
+    display: none;
+  }
 }
 
 /* sm	640px	 */

@@ -90,8 +90,8 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                     {singleCoverExists ? (
                       <Link to={post.fields.slug} itemProp="url">
                         <div
-                          style={{ backgroundColor: coverUrl && "white" }}
-                          className={styles.coverImageContainer}
+                        // style={{ backgroundColor: coverUrl && "white" }}
+                        // className={styles.coverImageContainer}
                         >
                           {coverUrl && (
                             <img
