@@ -43,6 +43,10 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
     }
   })
 
+  const singleCoverExists = sortedPosts.some(
+    item => item.frontmatter.cover !== null
+  )
+
   return (
     <>
       <div id={id}>
@@ -63,12 +67,54 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                 >
                   <div className={styles.contentContainer}>
                     {/* cover image */}
-                    {coverUrl && (
-                      <img
-                        src={coverUrl}
-                        alt={postTitle}
-                        className={styles.coverImage}
-                      />
+
+                    {/* TODO: Condition 1 */}
+
+                    {/* {coverUrl && (
+                      <Link to={post.fields.slug} itemProp="url">
+                        <div
+                          style={{ backgroundColor: coverUrl && "white" }}
+                          className={styles.coverImageContainer}
+                        >
+                          <img
+                            src={coverUrl}
+                            alt={postTitle}
+                            className={styles.coverImage}
+                          />
+                        </div>
+                      </Link>
+                    )} */}
+
+                    {/* TODO: Condition 2 */}
+
+                    {singleCoverExists ? (
+                      <Link to={post.fields.slug} itemProp="url">
+                        <div
+                          style={{ backgroundColor: coverUrl && "white" }}
+                          className={styles.coverImageContainer}
+                        >
+                          {coverUrl && (
+                            <img
+                              src={coverUrl}
+                              alt={postTitle}
+                              className={styles.coverImage}
+                            />
+                          )}
+                        </div>
+                      </Link>
+                    ) : (
+                      coverUrl && (
+                        <div
+                          style={{ backgroundColor: coverUrl && "white" }}
+                          className={styles.coverImageContainer}
+                        >
+                          <img
+                            src={coverUrl}
+                            alt={postTitle}
+                            className={styles.coverImage}
+                          />
+                        </div>
+                      )
                     )}
 
                     {/* title */}

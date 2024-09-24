@@ -32,9 +32,22 @@
   color: var(--color-primary);
 }
 
+.coverImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3%;
+  padding: 10px;
+
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
 .coverImage {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   border-radius: 3%;
 }
 
@@ -84,7 +97,7 @@
 
 .actionButton > * {
   color: var(--color-primary);
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .actionButtonIcon {
@@ -100,31 +113,41 @@
 }
 
 @media (max-width: 530px) {
-  .coverImage {
+  .coverImageContainer {
     display: none;
   }
 }
 
 /* sm	640px	 */
 @media (min-width: 640px) {
-  .coverImage {
-    max-width: 100%;
-    height: auto;
-  }
-
   .postListItem {
     max-width: 100%;
   }
 
   .postsListContainer {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+
+  .actionButton > * {
+    font-size: 13px;
+  }
+}
+
+/* lg	1024px	 */
+@media (min-width: 877px) {
+  .actionButton > * {
+    font-size: 11px;
   }
 }
 
 /* lg	1024px	 */
 @media (min-width: 1024px) {
   .postsListContainer {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+
+  .actionButton > * {
+    font-size: 11px;
   }
 
   .postListItem p {
@@ -146,5 +169,19 @@
 
     padding-right: 30px;
     padding-left: 30px;
+  }
+}
+
+/* lg	1024px	 */
+@media (min-width: 1540px) {
+  .actionButton > * {
+    font-size: 13px;
+  }
+}
+
+/* lg	1024px	 */
+@media (min-width: 1920px) {
+  .actionButton > * {
+    font-size: 11px;
   }
 }
