@@ -11,7 +11,7 @@ tertiaryButtonContent: "We study whether the disclosure of consumer complaints a
 ---
 
 **Presented:** Federal Reserve Board, AEA Annual Meeting, JAAF-ATP India
-Symposium, Yale University, Haskayne and Fox Accounting Conference, the IMF, and AAA Annual Meeting, FDIC\*
+Symposium, Yale University, Haskayne and Fox Accounting Conference, the IMF, and AAA Annual Meeting, FDIC's 23rd Bank Research Conference, 
 
 **<u>Summary:</u>**
 
@@ -57,8 +57,8 @@ This research highlights the importance of transparency in the financial sector.
 
 **Policy Implications:**
 
-    - Market Discipline: The study demonstrates that public disclosure of consumer complaints can serve as a critical mechanism for disciplining banks, encouraging greater transparency and accountability in the financial sector.
+- Market Discipline: The study demonstrates that public disclosure of consumer complaints can serve as a critical mechanism for disciplining banks, encouraging greater transparency and accountability in the financial sector.
 
-    - Spillover Effects: The impact on mortgage markets suggests that negative perceptions of banks can influence consumer behavior across various financial products, with broader implications for market stability.
+- Spillover Effects: The impact on mortgage markets suggests that negative perceptions of banks can influence consumer behavior across various financial products, with broader implications for market stability.
 
-    - Bank Strategies: Banks may need to adopt proactive strategies to manage their reputations and respond to consumer complaints effectively, mitigating potential negative financial impacts from public disclosures.
+- Bank Strategies: Banks may need to adopt proactive strategies to manage their reputations and respond to consumer complaints effectively, mitigating potential negative financial impacts from public disclosures.
