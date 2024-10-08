@@ -1,7 +1,6 @@
 ---
 title: "Disciplining Banks through Disclosure: Evidence from CFPB Consumer Complaints"
 description: with Anya Kleymenova (Fed Board), Jeffrey Jou (Wharton), Laszlo Sandor (CFPB), and Rajesh Vijayaraghavan (UBC Sauder)
-date: "2015-05-06T23:46:37.121Z"
 category: "research"
 subCategory: "Working Papers"
 sortOrder: 3
@@ -11,7 +10,7 @@ tertiaryButtonContent: "We study whether the disclosure of consumer complaints a
 ---
 
 **Presented:** Federal Reserve Board, AEA Annual Meeting, JAAF-ATP India
-Symposium, Yale University, Haskayne and Fox Accounting Conference, the IMF, and AAA Annual Meeting, FDIC's 23rd Bank Research Conference, 
+Symposium, Yale University, Haskayne and Fox Accounting Conference, the IMF, and AAA Annual Meeting, FDIC's 23rd Bank Research Conference,
 
 **<u>Summary:</u>**
 

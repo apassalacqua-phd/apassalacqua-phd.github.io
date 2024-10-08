@@ -41,3 +41,23 @@ To publish your new content for any of the respective 3 categories provided, hea
 
 
     ```
+
+3. **Available Blog Fields For Meta Data**
+
+| Field Name                     | Description                                                                                 | Required | Used in SEO | Used in Card | Used in Article Details Page |
+| ------------------------------ | ------------------------------------------------------------------------------------------- | -------- | ----------- | ------------ | ---------------------------- |
+| `title`                        | Article Title                                                                               | Yes      | Yes         | Yes          | Yes                          |
+| `description`                  | Description for article                                                                     | Yes      | Yes         | Yes          | Yes                          |
+| `category`                     | Article Category ("research","discussions","teaching-material")                             | Yes      | No          | Yes          | No                           |
+| `subCategory`                  | Research category only ("Working Papers", "Work in Progress","Publications")                | Yes      | No          | Yes          | No                           |
+| `sortOrder`                    | For overriding the default posts sorting based on alphabetical order of article's title     | Optional | No          | Yes          | No                           |
+| `cover`                        | Article Cover                                                                               | Yes      | Yes         | Yes          | Yes                          |
+| `secondaryCover`               | Article Secondary Cover                                                                     | Optional | No          | No           | Yes                          |
+| `primaryButtonTitle`           | Overriding the default "Read Summary" button title                                          | Optional | No          | Yes          | No                           |
+| `secondaryButtonTitle`         | Adding an external link button on article card's title                                      | Optional | No          | Yes          | No                           |
+| `secondaryButtonLink`          | Adding an external link button on article card's link                                       | Optional | No          | Yes          | No                           |
+| `tertiaryButtonTitle`          | For Article Abstract Material reading in the form of a modal on article card's button title | Optional | No          | Yes          | No                           |
+| `tertiaryButtonContent`        | For Article Abstract Material No                                                            | Optional | No          | Yes          | Yes                          |
+| `publicationInfo`              | For publication info                                                                        | Optional | No          | No           | Yes                          |
+| `externalPublicationLink`      | External publication link                                                                   | Optional | No          | No           | Yes                          |
+| `externalReadWorkingPaperLink` | External link for reading working paper                                                     | Optional | No          | No           | Yes                          |

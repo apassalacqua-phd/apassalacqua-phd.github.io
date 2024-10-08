@@ -6,6 +6,8 @@ import * as styles from "./BlogPost.module.css"
 import Layout from "../components/Layout/Layout"
 import Seo from "../components/Seo/Seo"
 
+import { navigate } from "gatsby"
+
 const BlogPostTemplate = ({
   data: { site, markdownRemark: post },
   location,
@@ -37,15 +39,30 @@ const BlogPostTemplate = ({
               />
             )}
 
-            {/* TODO: confirm the desc. content for SEO indexing  */}
-            <p itemProp="description">{post.frontmatter.description}</p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: post.frontmatter.description,
+              }}
+              itemProp="description"
+            />
 
             {post.frontmatter.tertiaryButtonContent && (
-              <p itemProp="description">
+              <p>
                 {
                   <>
                     <strong>{`ABSTRACT: `}</strong>
                     <span>{post.frontmatter.tertiaryButtonContent}</span>
+                  </>
+                }
+              </p>
+            )}
+
+            {post.frontmatter.publicationInfo && (
+              <p>
+                {
+                  <>
+                    <strong>{`PUBLICATION INFORMATION: `}</strong>
+                    <span>{post.frontmatter.publicationInfo}</span>
                   </>
                 }
               </p>
@@ -57,6 +74,14 @@ const BlogPostTemplate = ({
               {post.frontmatter?.subCategory}
             </small> */}
           </div>
+
+          {post.frontmatter?.secondaryCover?.publicURL && (
+            <img
+              src={post.frontmatter?.secondaryCover?.publicURL}
+              alt={post.frontmatter.title}
+              className={`${styles.coverImage} ${styles.desktopCoverImage}`}
+            />
+          )}
         </header>
 
         <hr style={{ marginBottom: "30px" }} />
@@ -71,15 +96,32 @@ const BlogPostTemplate = ({
           style={{
             display: `flex`,
             flexWrap: `wrap`,
-            justifyContent: `space-between`,
+            justifyContent: "space-between",
             listStyle: `none`,
             padding: 0,
           }}
         >
-          <li>
-            <Link to={"/"} rel="prev">
-              ← Go Back
-            </Link>
+          {post.frontmatter.externalPublicationLink && (
+            <li>
+              <Link to={post.frontmatter.externalPublicationLink} rel="prev">
+                Publication Link
+              </Link>
+            </li>
+          )}
+
+          {post.frontmatter.externalReadWorkingPaperLink && (
+            <li>
+              <Link
+                to={post.frontmatter.externalReadWorkingPaperLink}
+                rel="prev"
+              >
+                Read Working Paper
+              </Link>
+            </li>
+          )}
+
+          <li onClick={() => navigate(-1)}>
+            <Link>← Go Back</Link>
           </li>
         </ul>
       </nav>
@@ -116,7 +158,13 @@ export const pageQuery = graphql`
         category
         subCategory
         tertiaryButtonContent
+        externalPublicationLink
+        externalReadWorkingPaperLink
+        publicationInfo
         cover {
+          publicURL
+        }
+        secondaryCover {
           publicURL
         }
       }

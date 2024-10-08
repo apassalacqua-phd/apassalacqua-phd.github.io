@@ -1,6 +1,5 @@
 ---
 title: "The Political Economy of Government Debt"
-date: "2015-05-01T22:12:03.284Z"
 description: "with Alberto Alesina (Harvard University)"
 category: "research"
 subCategory: "Publications"
@@ -11,9 +10,9 @@ secondaryButtonLink: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=270632
 
 tertiaryButtonTitle: "Read abstract"
 tertiaryButtonContent: "This paper reviews the political economy literature on why governments often accumulate more debt than what would be considered optimal according to fiscal policy prescriptions. The focus is on understanding the political distortions that lead to these departures from optimal debt management, and the potential institutional designs that could moderate these tendencies."
----
 
-> Handbook of Macroeconomics, Volume 2, 2016, Pages 2599-2651
+publicationInfo: "Handbook of Macroeconomics, Volume 2, 2016, Pages 2599-2651"
+---
 
 **<u>Summary:</u>**
 

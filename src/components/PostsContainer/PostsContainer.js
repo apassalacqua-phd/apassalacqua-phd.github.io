@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import React, { useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import { PiBookOpenText } from "react-icons/pi"
 import Modal from "../Modal/Modal"
 import SectionTitleAndIcon from "../SectionTitleAndIcon/SectionTitleAndIcon"
@@ -47,6 +47,39 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
     item => item.frontmatter.cover !== null
   )
 
+  const headingRefs = useRef([])
+
+  useEffect(() => {
+    const adjustHeadingHeights = () => {
+      let maxHeight = 0
+
+      // calculating the tallest h4 element
+      headingRefs.current.forEach(heading => {
+        if (heading) {
+          const height = heading.offsetHeight
+          if (height > maxHeight) {
+            maxHeight = height
+          }
+        }
+      })
+
+      // setting the height of all h4 elements to the tallest one
+      headingRefs.current.forEach(heading => {
+        if (heading) {
+          heading.style.height = `${maxHeight}px`
+        }
+      })
+    }
+
+    adjustHeadingHeights()
+
+    // adjusting heading heights on window resize
+    window.addEventListener("resize", adjustHeadingHeights)
+
+    return () => {
+      window.removeEventListener("resize", adjustHeadingHeights)
+    }
+  }, [posts])
   return (
     <>
       <div id={id}>
@@ -54,7 +87,7 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
 
         {/* list of posts */}
         <div className={styles.postsListContainer}>
-          {sortedPosts.map(post => {
+          {sortedPosts.map((post, index) => {
             const postTitle = post.frontmatter.title || post.fields.slug
             const coverUrl = post.frontmatter.cover?.publicURL
 
@@ -118,7 +151,7 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                     )}
 
                     {/* title */}
-                    <h4>
+                    <h4 ref={el => (headingRefs.current[index] = el)}>
                       <Link to={post.fields.slug} itemProp="url">
                         <span itemProp="headline">{postTitle}</span>
                       </Link>
@@ -155,6 +188,8 @@ const PostsContainer = ({ posts, iconSrc, title, id }) => {
                           <a
                             className={styles.actionButton}
                             href={post.frontmatter?.secondaryButtonLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <span>
                               {String(

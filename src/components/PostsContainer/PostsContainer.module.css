@@ -97,7 +97,7 @@
 
 .actionButton > * {
   color: var(--color-primary);
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .actionButtonIcon {

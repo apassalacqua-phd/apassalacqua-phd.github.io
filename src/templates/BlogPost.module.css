@@ -9,6 +9,12 @@
   gap: 20px 0;
 }
 
+/* description */
+.headerDetails p:first-of-type {
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .headerDetails > p > span {
   /* for custom italic styling */
   transform: skewX(3deg);
@@ -51,8 +57,9 @@
 
 .blogPostNav ul li {
   margin: var(--spacing-4) 0;
-
+  color: var(--color-primary);
   font-size: 12px;
+  cursor: pointer;
 }
 
 .coverImage {

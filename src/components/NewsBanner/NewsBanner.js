@@ -1,18 +1,30 @@
 import * as React from "react"
 
-import newsBannerContent from "../../constants/NewsBannerData"
 import * as styles from "./NewsBanner.module.css"
 
 const NewsBanner = () => {
-  if (newsBannerContent?.length > 0)
-    return (
-      <div className={styles.globalHeader}>
-        <div className="global-wrapper">
-          <strong>Upcoming Events</strong>: {newsBannerContent}
-        </div>
+  // edit and uncomment the following code to show banner
+  return (
+    <div className={styles.globalHeader}>
+      <div className="global-wrapper">
+        <strong>Upcoming Events</strong>: The paper{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.apassalacqua.net/research/disciplining-banks-through-disclosure-evidence-from-cfpb-consumer-complaints"
+        >
+          "Disciplining Banks through Disclosure: Evidence from CFPB Consumer
+          Complaints"
+        </a>{" "}
+        is set to be presented at the 2024 Community Banking Research Conference
+        on October 2, 2024.
       </div>
-    )
-  else return <></>
+    </div>
+  )
+
+  // uncomment the following code to hide banner
+
+  // return <></>
 }
 
 export default NewsBanner

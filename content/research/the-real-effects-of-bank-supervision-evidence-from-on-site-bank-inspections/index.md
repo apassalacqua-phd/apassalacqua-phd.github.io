@@ -1,7 +1,11 @@
 ---
 title: "The Real Effects of Bank Supervision: Evidence from On-Site Bank Inspections"
-description: with Paolo Angelini (Bank of Italy), Francesca Lotti (Bank of Italy), and Giovanni Soggia (Bank of Italy)
-date: "2015-05-06T23:46:37.121Z"
+description: with <a
+  target="_blank"
+  rel="noopener noreferrer"
+  href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=498895">
+  Paolo Angelini (Bank of Italy)
+  </a>, Francesca Lotti (Bank of Italy), and Giovanni Soggia (Bank of Italy)
 category: "research"
 subCategory: "Working Papers"
 sortOrder: 2
@@ -10,9 +14,10 @@ secondaryButtonTitle: "Read full paper"
 secondaryButtonLink: "/posts/research/the-real-effects-of-bank-supervision-evidence-from-on-site-bank-inspections/real_effect_banking_inspection_august2021.pdf"
 
 tertiaryButtonTitle: "Read abstract"
-tertiaryButtonContent: "We show that bank supervision reduces distortions in credit markets and generates positive spillovers for the real economy. Combining a novel administrative dataset of unexpected bank inspections with a quasi-random selection of inspected banks in Italy, we show that inspected banks are more likely to reclassify loans as non performing after an audit. This behavior suggests that banks are inclined to misreport loan losses and evergreen credit to underperforming ﬁrms unless audited. We ﬁnd that this reclassiﬁcation of loans leads to a temporary contraction in lending by audited banks. However, this eﬀect is completely driven by a credit cut to underperforming ﬁrms, as the composition of new lending shifts toward more productive ﬁrms. As a result, these productive ﬁrms increase employment and invest more in ﬁxed capital. We provide evidence of a mechanisms for our results: a change in bank governance. Finally, we ﬁnd positive spillovers from inspections: entrepreneurship increases, underperforming ﬁrms are more likely to exit the market, and there is an overall increase in productivity in the local economy as a result. Taken together, our results show that bank supervision is an important complement to regulation in improving credit allocation.
+tertiaryButtonContent: "We show that bank supervision reduces distortions in credit markets and generates positive spillovers for the real economy. Combining a novel administrative dataset of unexpected bank inspections with a quasi-random selection of inspected banks in Italy, we show that inspected banks are more likely to reclassify loans as non performing after an audit. This behavior suggests that banks are inclined to misreport loan losses and evergreen credit to underperforming ﬁrms unless audited. We ﬁnd that this reclassiﬁcation of loans leads to a temporary contraction in lending by audited banks. However, this eﬀect is completely driven by a credit cut to underperforming ﬁrms, as the composition of new lending shifts toward more productive ﬁrms. As a result, these productive ﬁrms increase employment and invest more in ﬁxed capital. We provide evidence of a mechanisms for our results: a change in bank governance. Finally, we ﬁnd positive spillovers from inspections: entrepreneurship increases, underperforming ﬁrms are more likely to exit the market, and there is an overall increase in productivity in the local economy as a result. Taken together, our results show that bank supervision is an important complement to regulation in improving credit allocation."
 
-"
+externalPublicationLink: "https://www.sciencedirect.com/science/article/abs/pii/S157400481600015X"
+externalReadWorkingPaperLink: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2706322"
 ---
 
 <!-- The Real Effects of Bank Supervision: Evidence from On-Site Bank Inspections with [Paolo Angelini](https://www.bancaditalia.it/chi-siamo/organizzazione/ac/vigilanza-bancaria-finanziaria/angelini/index.html?com.dotmarketing.htmlpage.language=1), [Francesca Lotti](https://sites.google.com/site/francescalotti/francescalotti-homepage?authuser=0) and Giovanni Soggia -->
@@ -55,7 +60,6 @@ Bank supervision is a critical component of financial regulation, designed to en
 ![Impact of Inspections on Total Loans](./real_effect_inspection_totloans.png)
 
 - **Governance and Internal Controls:** Beyond immediate financial adjustments, inspections also prompt changes in the **governance and internal controls** of the banks. The turnover of board members increases following inspections, as do efforts to strengthen internal monitoring processes. These changes help to reduce moral hazard and align the interests of bank management with regulatory requirements and long-term financial stability. The inspections, therefore, act as a catalyst for broader organizational improvements that can have lasting benefits for the bank's performance and the economy.
-
 
 **<u>Testing the Impact:</u>**
 
