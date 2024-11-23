@@ -16,7 +16,7 @@ const NewsBanner = () => {
           "Disciplining Banks through Disclosure: Evidence from CFPB Consumer
           Complaints"
         </a>{" "}
-        is set to be presented at the 2024 Community Banking Research Conference
+        was presented at the FDIC 2024 Community Banking Research Conference
         on October 2, 2024.
       </div>
     </div>
