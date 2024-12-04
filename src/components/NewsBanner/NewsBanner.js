@@ -7,7 +7,7 @@ const NewsBanner = () => {
   return (
     <div className={styles.globalHeader}>
       <div className="global-wrapper">
-        <strong>Upcoming Events</strong>: The paper{" "}
+        <strong>NEWS</strong>: The final version of the paper{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -16,8 +16,7 @@ const NewsBanner = () => {
           "Disciplining Banks through Disclosure: Evidence from CFPB Consumer
           Complaints"
         </a>{" "}
-        was presented at the FDIC 2024 Community Banking Research Conference
-        on October 2, 2024.
+        is finally posted online!
       </div>
     </div>
   )
