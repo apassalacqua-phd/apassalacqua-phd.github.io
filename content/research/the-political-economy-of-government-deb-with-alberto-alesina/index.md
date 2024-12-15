@@ -1,6 +1,11 @@
 ---
 title: "The Political Economy of Government Debt"
-description: "with Alberto Alesina (Harvard University)"
+description: with <a
+  target="_blank"
+  rel="noopener noreferrer"
+  href="https://scholar.google.com/citations?user=fGQT4jEAAAAJ&hl=en">
+  Alberto Alesina (Harvard University)
+  </a>
 category: "research"
 subCategory: "Publications"
 sortOrder: 1

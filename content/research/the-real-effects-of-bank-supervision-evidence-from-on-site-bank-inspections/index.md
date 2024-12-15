@@ -5,7 +5,17 @@ description: with <a
   rel="noopener noreferrer"
   href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=498895">
   Paolo Angelini (Bank of Italy)
-  </a>, Francesca Lotti (Bank of Italy), and Giovanni Soggia (Bank of Italy)
+  </a>, <a
+  target="_blank"
+  rel="noopener noreferrer"
+  href="https://sites.google.com/site/francescalotti/">
+  Francesca Lotti (Bank of Italy)
+  </a>, and <a
+  target="_blank"
+  rel="noopener noreferrer"
+  href="https://ideas.repec.org/f/pso691.html">
+  Giovanni Soggia (Bank of Italy)
+  </a>
 category: "research"
 subCategory: "Working Papers"
 sortOrder: 2

@@ -57,7 +57,7 @@ const Intro = () => {
                       target="_blank"
           rel="noopener noreferrer"
             href="https://gufaculty360.georgetown.edu/s/contact/003UH00000FAg8cYAD/andrea-passalacqua">Georgetown 
-            University McDonough School of Business</a>{" "}.
+            University McDonough School of Business</a>.
           </p>  
 
           <p>  

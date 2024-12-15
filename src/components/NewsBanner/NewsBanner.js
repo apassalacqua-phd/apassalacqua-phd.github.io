@@ -7,7 +7,7 @@ const NewsBanner = () => {
   return (
     <div className={styles.globalHeader}>
       <div className="global-wrapper">
-        <strong>NEWS</strong>: The final version of the paper{" "}
+        <strong>NEWS</strong>: A new version of the paper {" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
