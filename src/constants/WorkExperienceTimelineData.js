@@ -27,7 +27,7 @@ const workExperienceTimelineData = [
   },
 
   {
-    startYear: 2020,
+    startYear: 2022,
     endYear: 2024,
     isPresent: false,
     entityName: "ANALYSIS GROUP",

@@ -46,8 +46,8 @@ const Intro = () => {
                       target="_blank"
           rel="noopener noreferrer"
             href="https://carey.jhu.edu/faculty/andrea-passalacqua-phd">John 
-            Hopkins University Carey Business School</a>{" "}
-              and I am a <b>Visiting Research Fellow</b> at the{" "} 
+            Hopkins University Carey Business School</a>{" "}, where I teach courses in the Master of Finance.
+               I am also a <b>Visiting Research Fellow</b> at the{" "} 
               <a
                       target="_blank"
           rel="noopener noreferrer"
@@ -88,7 +88,7 @@ const Intro = () => {
         
         <a
           className={styles.getMyResume}
-          href="/Passalacqua_CV_Academic_September2024.docx"
+          href="/Passalacqua_CV_Academic_June2025.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
