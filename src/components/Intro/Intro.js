@@ -70,7 +70,15 @@ const Intro = () => {
 
           <p> 
             My research interests include financial intermediation, macroeconomics, household 
-            finance, corporate finance, venture capital, private equity, and entrepreneurship.
+            finance, corporate finance, venture capital, private equity, and entrepreneurship. 
+          </p>
+
+          <p>                     
+          More recently, I have developed a growing interest in the impact of Artificial Intelligence 
+          (AI), particularly how advances in AI are reshaping financial services and markets—from credit 
+          allocation and investment strategies to consumer access and risk management. 
+          I am also exploring how AI is transforming labor markets, firm productivity and organization, 
+          and entrepreneurship, and what these shifts imply for long-term economic growth and inequality.
           </p>
 
           <p>
