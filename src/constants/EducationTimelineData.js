@@ -1,7 +1,6 @@
 const educationTimelineData = [
   {
-    startYear: 2013,
-    endYear: 2020,
+
     isPresent: false,
     entityName: "HARVARD UNIVERSITY",
     location: "Cambridge, MA, USA",
@@ -12,8 +11,8 @@ const educationTimelineData = [
   },
 
   {
-    startYear: 2009,
-    endYear: 2012,
+    // startYear: 2009,
+    //endYear: 2012,
     isPresent: false,
     entityName: "BOCCONI UNIVERSITY",
     location: "Milan, Italy",
@@ -21,8 +20,8 @@ const educationTimelineData = [
   },
 
   {
-    startYear: 2005,
-    endYear: 2008,
+    //startYear: 2005,
+    //endYear: 2008,
     isPresent: false,
     entityName: "BOCCONI UNIVERSITY",
     location: "Milan, Italy",
