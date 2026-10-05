@@ -73,14 +73,6 @@ const Intro = () => {
             finance, corporate finance, venture capital, private equity, and entrepreneurship. 
           </p>
 
-          <p>                     
-          More recently, I have developed a growing interest in the impact of Artificial Intelligence 
-          (AI), particularly how advances in AI are reshaping financial services and markets—from credit 
-          allocation and investment strategies to consumer access and risk management. 
-          I am also exploring how AI is transforming labor markets, firm productivity and organization, 
-          and entrepreneurship, and what these shifts imply for long-term economic growth and inequality.
-          </p>
-
           <p>
             I obtained a Ph.D. and a M.A. from{" "} 
             <a
@@ -96,7 +88,7 @@ const Intro = () => {
         
         <a
           className={styles.getMyResume}
-          href="/Passalacqua_CV_Academic_June2025.pdf"
+          href="/Passalacqua_CV_Academic_March2026.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
