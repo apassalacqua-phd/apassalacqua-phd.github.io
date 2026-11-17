@@ -1,5 +1,0 @@
-User-agent: *
-Disallow:
-
-
-Sitemap: https://www.apassalacqua.net/sitemap-0.xml
